@@ -75,8 +75,6 @@ class SfwSpider(RedisSpider):
 
                 yield scrapy.Request(url=new_house_url, callback=self.parse_newhouse, meta={"info": (province, city)})
                 yield scrapy.Request(url=esf_url, callback=self.parse_esf, meta={"info": (province, city)})
-                break
-            break
 
     def parse_newhouse(self, response):
         province, city = response.meta.get('info')
