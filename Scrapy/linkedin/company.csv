@@ -1,0 +1,1001 @@
+WorldRank,Company,Country,Industry
+1,VOLKSWAGEN,Germany,Automobiles & Parts
+2,ALPHABET,US,Software & Computer Services
+3,MICROSOFT,US,Software & Computer Services
+4,SAMSUNG ELECTRONICS,South Korea,Electronic & Electrical Equipment
+5,INTEL,US,Technology Hardware & Equipment
+6,HUAWEI,China,Technology Hardware & Equipment
+7,APPLE,US,Technology Hardware & Equipment
+8,ROCHE,Switzerland,Pharmaceuticals & Biotechnology
+9,JOHNSON & JOHNSON,US,Pharmaceuticals & Biotechnology
+10,NOVARTIS,Switzerland,Pharmaceuticals & Biotechnology
+11,GENERAL MOTORS,US,Automobiles & Parts
+12,DAIMLER,Germany,Automobiles & Parts
+13,TOYOTA MOTOR,Japan,Automobiles & Parts
+14,PFIZER,US,Pharmaceuticals & Biotechnology
+15,FORD MOTOR,US,Automobiles & Parts
+16,MERCK US,US,Pharmaceuticals & Biotechnology
+17,ORACLE,US,Software & Computer Services
+18,CISCO SYSTEMS,US,Technology Hardware & Equipment
+19,FACEBOOK,US,Software & Computer Services
+20,ROBERT BOSCH,Germany,Automobiles & Parts
+21,HONDA MOTOR,Japan,Automobiles & Parts
+22,ASTRAZENECA,UK,Pharmaceuticals & Biotechnology
+23,BMW,Germany,Automobiles & Parts
+24,SANOFI,France,Pharmaceuticals & Biotechnology
+25,SIEMENS,Germany,Electronic & Electrical Equipment
+26,IBM,US,Software & Computer Services
+27,NOKIA,Finland,Technology Hardware & Equipment
+28,QUALCOMM,US,Technology Hardware & Equipment
+29,BAYER,Germany,Pharmaceuticals & Biotechnology
+30,BRISTOL-MYERS SQUIBB,US,Pharmaceuticals & Biotechnology
+31,GENERAL ELECTRIC,US,General Industrials
+32,GILEAD SCIENCES,US,Pharmaceuticals & Biotechnology
+33,CELGENE,US,Pharmaceuticals & Biotechnology
+34,FIAT CHRYSLER AUTOMOBILES,Netherlands,Automobiles & Parts
+35,ELI LILLY,US,Pharmaceuticals & Biotechnology
+36,BOEING,US,Aerospace & Defence
+37,NISSAN MOTOR,Japan,Automobiles & Parts
+38,GLAXOSMITHKLINE,UK,Pharmaceuticals & Biotechnology
+39,ABBVIE,US,Pharmaceuticals & Biotechnology
+40,PANASONIC,Japan,Leisure Goods
+41,SONY,Japan,Leisure Goods
+42,AMGEN,US,Pharmaceuticals & Biotechnology
+43,DENSO,Japan,Automobiles & Parts
+44,ERICSSON,Sweden,Technology Hardware & Equipment
+45,AIRBUS,Netherlands,Aerospace & Defence
+46,BOEHRINGER SOHN,Germany,Pharmaceuticals & Biotechnology
+47,SAP,Germany,Software & Computer Services
+48,CONTINENTAL,Germany,Automobiles & Parts
+49,TAKEDA PHARMACEUTICAL,Japan,Pharmaceuticals & Biotechnology
+50,LG ELECTRONICS,South Korea,Leisure Goods
+51,DELL TECHNOLOGIES,US,Technology Hardware & Equipment
+52,RENAULT,France,Automobiles & Parts
+53,ALLERGAN,Ireland,Pharmaceuticals & Biotechnology
+54,HITACHI,Japan,Electronic & Electrical Equipment
+55,BROADCOM,Singapore,Technology Hardware & Equipment
+56,CANON,Japan,Technology Hardware & Equipment
+57,TOSHIBA,Japan,General Industrials
+58,ALIBABA GROUP HOLDING,China,General Retailers
+59,WESTERN DIGITAL,US,Technology Hardware & Equipment
+60,PEUGEOT (PSA),France,Automobiles & Parts
+61,UNITED TECHNOLOGIES,US,Aerospace & Defence
+62,HEWLETT PACKARD ENTERPRISE,US,Technology Hardware & Equipment
+63,TAIWAN SEMICONDUCTOR,Taiwan,Technology Hardware & Equipment
+64,MEDTRONIC PUBLIC LIMITED,Ireland,Health Care Equipment & Services
+65,HONEYWELL,US,General Industrials
+66,PHILIPS,Netherlands,General Industrials
+67,NOVO NORDISK,Denmark,Pharmaceuticals & Biotechnology
+68,MERCK DE,Germany,Pharmaceuticals & Biotechnology
+69,ZF,Germany,Automobiles & Parts
+70,ZTE,China,Technology Hardware & Equipment
+71,NESTLE,Switzerland,Food Producers
+72,CATERPILLAR,US,Industrial Engineering
+73,VOLVO,Sweden,Industrial Engineering
+74,BIOGEN,US,Pharmaceuticals & Biotechnology
+75,BASF,Germany,Chemicals
+76,PROCTER & GAMBLE,US,Household Goods & Home Construction
+77,HYUNDAI MOTOR,South Korea,Automobiles & Parts
+78,TELECOM ITALIA,Italy,Fixed Line Telecommunications
+79,DAIICHI SANKYO,Japan,Pharmaceuticals & Biotechnology
+80,BANCO SANTANDER,Spain,Banks
+81,NTT,Japan,Fixed Line Telecommunications
+82,ASTELLAS PHARMA,Japan,Pharmaceuticals & Biotechnology
+83,SK HYNIX,South Korea,Technology Hardware & Equipment
+84,MEDIATEK,Taiwan,Technology Hardware & Equipment
+85,TENCENT,China,Software & Computer Services
+86,TEVA PHARMACEUTICAL INDUSTRIES,Israel,Pharmaceuticals & Biotechnology
+87,AT&T,US,Fixed Line Telecommunications
+88,DUPONT,US,Chemicals
+89,MICRON TECHNOLOGY,US,Technology Hardware & Equipment
+90,PETROCHINA,China,Oil & Gas Producers
+91,TATA MOTORS,India,Automobiles & Parts
+92,DOW CHEMICAL,US,Chemicals
+93,MITSUBISHI ELECTRIC,Japan,Electronic & Electrical Equipment
+94,HON HAI PRECISION INDUSTRY,Taiwan,Electronic & Electrical Equipment
+95,DEUTSCHE BANK,Germany,Banks
+96,APPLIED MATERIALS,US,Technology Hardware & Equipment
+97,CHINA STATE CONSTRUCTION ENGINEERING,China,Construction & Materials
+98,NXP SEMICONDUCTORS,Netherlands,Technology Hardware & Equipment
+99,MONSANTO,US,Chemicals
+100,CHINA RAILWAY,China,Construction & Materials
+101,FUJITSU,Japan,Software & Computer Services
+102,BOMBARDIER,Canada,Aerospace & Defence
+103,BAIDU,China,Software & Computer Services
+104,NVIDIA,US,Technology Hardware & Equipment
+105,OTSUKA,Japan,Pharmaceuticals & Biotechnology
+106,AISIN SEIKI,Japan,Automobiles & Parts
+107,LEONARDO,Italy,Aerospace & Defence
+108,ABBOTT LABORATORIES,US,Pharmaceuticals & Biotechnology
+109,SHIRE,UK,Pharmaceuticals & Biotechnology
+110,SYNGENTA,Switzerland,Chemicals
+111,CRRC CHINA,China,Industrial Engineering
+112,DEERE,US,Industrial Engineering
+113,FUJIFILM,Japan,Electronic & Electrical Equipment
+114,TEXAS INSTRUMENTS,US,Technology Hardware & Equipment
+115,CHINA RAILWAY CONSTRUCTION,China,Construction & Materials
+116,SAIC MOTOR,China,Automobiles & Parts
+117,SUMITOMO CHEMICAL,Japan,Chemicals
+118,ABB,Switzerland,Industrial Engineering
+119,STMICROELECTRONICS,Netherlands,Technology Hardware & Equipment
+120,KIA MOTORS,South Korea,Automobiles & Parts
+121,LENOVO,China,Technology Hardware & Equipment
+122,EBAY,US,General Retailers
+123,SEAGATE TECHNOLOGY,Ireland,Technology Hardware & Equipment
+124,3M,US,General Industrials
+125,SALESFORCE.COM,US,Software & Computer Services
+126,HP,US,Technology Hardware & Equipment
+127,VALEO,France,Automobiles & Parts
+128,DELPHI,UK,Automobiles & Parts
+129,PAYPAL,US,Financial Services
+130,BARCLAYS,UK,Banks
+131,ELECTRONIC ARTS,US,Software & Computer Services
+132,DANAHER,US,Electronic & Electrical Equipment
+133,CHINA COMMUNICATIONS CONSTRUCTION,China,Construction & Materials
+134,INTUIT,US,Software & Computer Services
+135,SUZUKI MOTOR,Japan,Automobiles & Parts
+136,CTRIP.COM INTERNATIONAL,China,Travel & Leisure
+137,MAZDA MOTOR,Japan,Automobiles & Parts
+138,ASML HOLDING,Netherlands,Technology Hardware & Equipment
+139,MITSUBISHI CHEMICAL,Japan,Chemicals
+140,ALTABA,US,Software & Computer Services
+141,ROLLS-ROYCE,UK,Aerospace & Defence
+142,VERTEX PHARMACEUTICALS,US,Pharmaceuticals & Biotechnology
+143,EXXON MOBIL,US,Oil & Gas Producers
+144,TOTAL,France,Oil & Gas Producers
+145,UNILEVER,UK,Food Producers
+146,SAFRAN,France,Aerospace & Defence
+147,UCB,Belgium,Pharmaceuticals & Biotechnology
+148,ROYAL DUTCH SHELL,UK,Oil & Gas Producers
+149,LAM RESEARCH,US,Technology Hardware & Equipment
+150,SCHLUMBERGER,US,"Oil Equipment, Services & Distribution"
+151,ADVANCED MICRO DEVICES,US,Technology Hardware & Equipment
+152,JUNIPER NETWORKS,US,Technology Hardware & Equipment
+153,LOCKHEED MARTIN,US,Aerospace & Defence
+154,SUMITOMO ELECTRIC,Japan,Electronic & Electrical Equipment
+155,SUBARU,Japan,Automobiles & Parts
+156,ADOBE SYSTEMS,US,Software & Computer Services
+157,ACTIVISION BLIZZARD,US,Software & Computer Services
+158,TELEFONICA,Spain,Fixed Line Telecommunications
+159,BOSTON SCIENTIFIC,US,Health Care Equipment & Services
+160,INFINEON TECHNOLOGIES,Germany,Technology Hardware & Equipment
+161,NEC,Japan,Software & Computer Services
+162,MITSUBISHI HEAVY,Japan,General Industrials
+163,SHARP,Japan,Electronic & Electrical Equipment
+164,L'OREAL,France,Personal Goods
+165,POWER CONSTRUCTION CORPORATION OF CHINA,China,Construction & Materials
+166,CNH INDUSTRIAL,Netherlands,Industrial Engineering
+167,EISAI,Japan,Pharmaceuticals & Biotechnology
+168,MARVELL TECHNOLOGY,US,Technology Hardware & Equipment
+169,MIDEA GROUP,China,Household Goods & Home Construction
+170,SYNOPSYS,US,Software & Computer Services
+171,RICOH,Japan,Technology Hardware & Equipment
+172,CHINA PETROLEUM & CHEMICALS,China,Oil & Gas Producers
+173,BECTON DICKINSON,US,Health Care Equipment & Services
+174,TWITTER,US,Software & Computer Services
+175,TESLA,US,Automobiles & Parts
+176,SERVIER,France,Pharmaceuticals & Biotechnology
+177,MYLAN,Netherlands,Pharmaceuticals & Biotechnology
+178,SYMANTEC,US,Software & Computer Services
+179,BRIDGESTONE,Japan,Automobiles & Parts
+180,YAMAHA MOTOR,Japan,Automobiles & Parts
+181,MAHLE,Germany,Automobiles & Parts
+182,ISUZU MOTORS,Japan,Industrial Engineering
+183,TDK,Japan,Electronic & Electrical Equipment
+184,NETAPP,US,Technology Hardware & Equipment
+185,TELSTRA,Australia,Technology Hardware & Equipment
+186,NETFLIX,US,General Retailers
+187,AUTODESK,US,Software & Computer Services
+188,AMADEUS,Spain,Software & Computer Services
+189,SCHAEFFLER,Germany,Automobiles & Parts
+190,PEPSICO,US,Beverages
+191,ALEXION PHARMACEUTICALS,US,Pharmaceuticals & Biotechnology
+192,MICHELIN,France,Automobiles & Parts
+193,RAYTHEON,US,Electronic & Electrical Equipment
+194,THERMO FISHER SCIENTIFIC,US,Health Care Equipment & Services
+195,CADENCE DESIGN SYSTEMS,US,Software & Computer Services
+196,TOKYO ELECTRON,Japan,Technology Hardware & Equipment
+197,STRYKER,US,Health Care Equipment & Services
+198,HELLA,Germany,Automobiles & Parts
+199,NORTHROP GRUMMAN,US,Electronic & Electrical Equipment
+200,CERNER,US,Software & Computer Services
+201,MURATA MANUFACTURING,Japan,Electronic & Electrical Equipment
+202,ELECTRICITE DE FRANCE,France,Electricity
+203,FERRARI,Netherlands,Automobiles & Parts
+204,UBISOFT ENTERTAINMENT,France,Software & Computer Services
+205,ASAHI KASEI,Japan,Chemicals
+206,WORKDAY,US,Software & Computer Services
+207,THOMSON REUTERS,Canada,Support Services
+208,OLYMPUS,Japan,Health Care Equipment & Services
+209,TEXTRON,US,Aerospace & Defence
+210,RENESAS,Japan,Electronic & Electrical Equipment
+211,BIOMARIN PHARMACEUTICAL,US,Pharmaceuticals & Biotechnology
+212,ANALOG DEVICES,US,Technology Hardware & Equipment
+213,REGENERON PHARMACEUTICALS,US,Pharmaceuticals & Biotechnology
+214,CSL,Australia,Pharmaceuticals & Biotechnology
+215,ACCENTURE,Ireland,Support Services
+216,BT,UK,Fixed Line Telecommunications
+217,CORNING,US,Technology Hardware & Equipment
+218,SCHNEIDER,France,Electronic & Electrical Equipment
+219,AUTOMATIC DATA PROCESSING,US,Support Services
+220,CHINA MERCHANTS BANK,China,Banks
+221,KOREA ELECTRIC POWER,South Korea,Electricity
+222,KONICA MINOLTA,Japan,Technology Hardware & Equipment
+223,PETROBRAS,Brazil,Oil & Gas Producers
+224,AUTOLIV,US,Automobiles & Parts
+225,CUMMINS,US,Industrial Engineering
+226,BYD,China,Electronic & Electrical Equipment
+227,LG CHEM,South Korea,General Industrials
+228,WHIRLPOOL,US,Household Goods & Home Construction
+229,KOMATSU,Japan,Industrial Engineering
+230,XILINX,US,Technology Hardware & Equipment
+231,LIEBHERR-INTERNATIONAL,Switzerland,Industrial Engineering
+232,THALES,France,Aerospace & Defence
+233,NIPPON STEEL,Japan,Industrial Metals & Mining
+234,ROYAL BANK OF SCOTLAND,UK,Banks
+235,EATON CORPORATION,Ireland,Electronic & Electrical Equipment
+236,CA,US,Software & Computer Services
+237,ARRIS,UK,Technology Hardware & Equipment
+238,CITRIX SYSTEMS,US,Software & Computer Services
+239,CENTRAL JAPAN RAILWAY,Japan,Travel & Leisure
+240,DASSAULT SYSTEMES,France,Software & Computer Services
+241,LLOYDS BANKING,UK,Banks
+242,BAXTER INTERNATIONAL,US,Health Care Equipment & Services
+243,TE CONNECTIVITY,Switzerland,Electronic & Electrical Equipment
+244,SHANGHAI CONSTRUCTION,China,Construction & Materials
+245,MOTOROLA,US,Technology Hardware & Equipment
+246,SOFTBANK,Japan,Software & Computer Services
+247,MICROCHIP TECHNOLOGY,US,Technology Hardware & Equipment
+248,INTESA SANPAOLO,Italy,Banks
+249,NIKON,Japan,Leisure Goods
+250,KIRIN,Japan,Beverages
+251,ACTELION,Switzerland,Pharmaceuticals & Biotechnology
+252,SAUDI BASIC INDUSTRIES,Saudi Arabia,Chemicals
+253,FRESENIUS,Germany,Health Care Equipment & Services
+254,KLA-TENCOR,US,Technology Hardware & Equipment
+255,BAOSHAN IRON & STEEL,China,Industrial Metals & Mining
+256,HYUNDAI MOBIS,South Korea,Automobiles & Parts
+257,DONGFENG MOTOR,China,Automobiles & Parts
+258,SHIONOGI,Japan,Pharmaceuticals & Biotechnology
+259,AMAZON.COM,US,General Retailers
+260,ILLUMINA,US,Pharmaceuticals & Biotechnology
+261,TORAY INDUSTRIES,Japan,Chemicals
+262,NINTENDO,Japan,Leisure Goods
+263,JAPAN TOBACCO,Japan,Tobacco
+264,MITSUBISHI MOTORS,Japan,Automobiles & Parts
+265,HENKEL,Germany,Household Goods & Home Construction
+266,ONO PHARMACEUTICAL,Japan,Pharmaceuticals & Biotechnology
+267,EMBRAER,Brazil,Aerospace & Defence
+268,RED HAT,US,Software & Computer Services
+269,SAINT-GOBAIN,France,Construction & Materials
+270,METALLURGICAL OF CHINA,China,General Industrials
+271,CHEVRON,US,Oil & Gas Producers
+272,KYOCERA,Japan,Electronic & Electrical Equipment
+273,NATIONAL AUSTRALIA BANK,Australia,Banks
+274,QORVO,US,Technology Hardware & Equipment
+275,INCYTE,US,Pharmaceuticals & Biotechnology
+276,GARMIN,Switzerland,Leisure Goods
+277,QINGDAO HAIER,China,Household Goods & Home Construction
+278,KAO,Japan,Personal Goods
+279,CARL ZEISS,Germany,Health Care Equipment & Services
+280,PPG INDUSTRIES,US,Construction & Materials
+281,SAMSUNG SDI,South Korea,Electronic & Electrical Equipment
+282,DELTA ELECTRONICS (TAIWAN),Taiwan,Electronic & Electrical Equipment
+283,INFOR,US,Software & Computer Services
+284,EVONIK INDUSTRIES,Germany,Chemicals
+285,DAIKIN INDUSTRIES,Japan,General Industrials
+286,GREAT WALL MOTOR,China,Automobiles & Parts
+287,MAXIM INTEGRATED PRODUCTS,US,Technology Hardware & Equipment
+288,ON SEMICONDUCTOR,US,Technology Hardware & Equipment
+289,NIDEC,Japan,Electronic & Electrical Equipment
+290,SEIKO EPSON,Japan,Technology Hardware & Equipment
+291,THYSSENKRUPP,Germany,Industrial Metals & Mining
+292,CIENA,US,Technology Hardware & Equipment
+293,CHONGOING CHANGAN,China,Automobiles & Parts
+294,TORONTO DOMINION,Canada,Banks
+295,EDWARDS LIFESCIENCES,US,Health Care Equipment & Services
+296,NETEASE,China,Software & Computer Services
+297,PEGATRON,Taiwan,Software & Computer Services
+298,SANDVIK,Sweden,Industrial Engineering
+299,OMRON,Japan,Electronic & Electrical Equipment
+300,CHINA SHIPBUILDING,China,Industrial Engineering
+301,PHILIP MORRIS INTERNATIONAL,US,Tobacco
+302,WISTRON,Taiwan,Technology Hardware & Equipment
+303,XEROX,US,Technology Hardware & Equipment
+304,KEYSIGHT TECHNOLOGIES,US,Electronic & Electrical Equipment
+305,VALEANT PHARMACEUTICALS,Canada,Pharmaceuticals & Biotechnology
+306,SHIN-ETSU CHEMICAL,Japan,Chemicals
+307,UNITED MICROELECTRONICS,Taiwan,Technology Hardware & Equipment
+308,GENERAL DYNAMICS,US,Aerospace & Defence
+309,BROCADE COMMUNICATIONS,US,Technology Hardware & Equipment
+310,JTEKT,Japan,Industrial Engineering
+311,MENTOR GRAPHICS,US,Software & Computer Services
+312,ASUSTEK COMPUTER,Taiwan,Technology Hardware & Equipment
+313,LUPIN,India,Pharmaceuticals & Biotechnology
+314,CHINA ENERGY ENGINEERING,China,Electricity
+315,ZOETIS,US,Pharmaceuticals & Biotechnology
+316,BP,UK,Oil & Gas Producers
+317,GIVAUDAN,Switzerland,Chemicals
+318,UNICREDIT,Italy,Banks
+319,GOODYEAR,US,Automobiles & Parts
+320,SHANGHAI ELECTRIC,China,Industrial Engineering
+321,HEXAGON,Sweden,Industrial Engineering
+322,FORTIVE,US,Electronic & Electrical Equipment
+323,ZODIAC AEROSPACE,France,Aerospace & Defence
+324,SEGA SAMMY,Japan,Travel & Leisure
+325,SEATTLE GENETICS,US,Pharmaceuticals & Biotechnology
+326,ALKERMES,Ireland,Pharmaceuticals & Biotechnology
+327,ZEBRA TECHNOLOGIES,US,Electronic & Electrical Equipment
+328,MONDELEZ,US,Food Producers
+329,HANWHA,South Korea,General Industrials
+330,H LUNDBECK,Denmark,Pharmaceuticals & Biotechnology
+331,KAWASAKI HEAVY INDUSTRIES,Japan,General Industrials
+332,VILMORIN,France,Food Producers
+333,COMPAL ELECTRONICS,Taiwan,Electronic & Electrical Equipment
+334,POSCO,South Korea,Industrial Metals & Mining
+335,KUBOTA,Japan,General Industrials
+336,BEIQI FOTON MOTOR,China,Industrial Engineering
+337,DOOSAN,South Korea,General Industrials
+338,ZIMMER BIOMET,US,Health Care Equipment & Services
+339,BROTHER INDUSTRIES,Japan,Technology Hardware & Equipment
+340,OSRAM LICHT,Germany,Household Goods & Home Construction
+341,FANUC,Japan,Industrial Engineering
+342,COMMERZBANK,Germany,Banks
+343,ELECTROLUX,Sweden,Household Goods & Home Construction
+344,CHIESI FARMACEUTICI,Italy,Pharmaceuticals & Biotechnology
+345,MCKESSON,US,Health Care Equipment & Services
+346,AKZO NOBEL,Netherlands,Chemicals
+347,COMMONWEALTH BANK OF AUSTRALIA,Australia,Banks
+348,SOHU.COM,US,Software & Computer Services
+349,ADVANCED SEMICONDUCTOR ENGINEERING,Taiwan,Technology Hardware & Equipment
+350,DANONE,France,Food Producers
+351,HANGZHOU HIKVISION DIGITAL TECHNOLOGY,China,Leisure Goods
+352,TRIMBLE,US,Electronic & Electrical Equipment
+353,PALO ALTO NETWORKS,US,Software & Computer Services
+354,DANSKE BANK,Denmark,Banks
+355,BOE TECHNOLOGY GROUP,China,Electronic & Electrical Equipment
+356,QUANTA COMPUTER,Taiwan,Technology Hardware & Equipment
+357,KNORR-BREMSE,Germany,Industrial Engineering
+358,INNOLUX,Taiwan,Electronic & Electrical Equipment
+359,RELX GROUP,UK,Media
+360,INTERNATIONAL GAME TECHNOLOGY,UK,Travel & Leisure
+361,BORGWARNER,US,Automobiles & Parts
+362,ATLAS COPCO,Sweden,Industrial Engineering
+363,HTC,Taiwan,Technology Hardware & Equipment
+364,SOLVAY,Belgium,Chemicals
+365,ASAHI GLASS,Japan,General Industrials
+366,GOPRO,US,Leisure Goods
+367,ALNYLAM PHARMACEUTICALS,US,Pharmaceuticals & Biotechnology
+368,F5 NETWORKS,US,Technology Hardware & Equipment
+369,SUN PHARMACEUTICAL INDUSTRIES,India,Pharmaceuticals & Biotechnology
+370,SAMSUNG ELECTRO-MECHANICS,South Korea,Electronic & Electrical Equipment
+371,CYPRESS SEMICONDUCTOR,US,Technology Hardware & Equipment
+372,REALTEK SEMICONDUCTOR,Taiwan,Technology Hardware & Equipment
+373,HALLIBURTON,US,"Oil Equipment, Services & Distribution"
+374,KIMBERLY-CLARK,US,Personal Goods
+375,DSM,Netherlands,Chemicals
+376,FITBIT,US,Health Care Equipment & Services
+377,AGILENT TECHNOLOGIES,US,Electronic & Electrical Equipment
+378,TOYOTA BOSHOKU,Japan,Automobiles & Parts
+379,TSINGHUA TONGFANG,China,Technology Hardware & Equipment
+380,ZYNGA,US,Software & Computer Services
+381,EMERSON ELECTRIC,US,Electronic & Electrical Equipment
+382,ROCKWELL AUTOMATION,US,Industrial Engineering
+383,ROHM,Japan,Technology Hardware & Equipment
+384,VALE,Brazil,Mining
+385,SEMICONDUCTOR MANUFACTURING,China,Technology Hardware & Equipment
+386,B BRAUN MELSUNGEN,Germany,Health Care Equipment & Services
+387,TOYOTA INDUSTRIES,Japan,Automobiles & Parts
+388,MERIEUX ALLIANCE,France,Pharmaceuticals & Biotechnology
+389,GKN,UK,Automobiles & Parts
+390,SKYWORKS SOLUTIONS,US,Technology Hardware & Equipment
+391,TRUMPF,Germany,General Industrials
+392,AUSTRALIA & NEW ZEALAND BANKING,Australia,Banks
+393,ATLASSIAN CORPORATION,UK,Software & Computer Services
+394,HARRIS,US,Technology Hardware & Equipment
+395,JOHNSON CONTROLS,Ireland,General Industrials
+396,CR BARD,US,Health Care Equipment & Services
+397,MICROSEMI,US,Technology Hardware & Equipment
+398,ANHUI JIANGHUAI AUTOMOBILE,China,Automobiles & Parts
+399,IHI,Japan,Industrial Engineering
+400,JFE,Japan,Industrial Metals & Mining
+401,CIRRUS LOGIC,US,Technology Hardware & Equipment
+402,TEIJIN,Japan,Chemicals
+403,TABLEAU SOFTWARE,US,Software & Computer Services
+404,FREUDENBERG,Germany,General Industrials
+405,BLACKBERRY,Canada,Technology Hardware & Equipment
+406,FUJI ELECTRIC,Japan,Electronic & Electrical Equipment
+407,STATOIL,Norway,Oil & Gas Producers
+408,GEELY AUTOMOBILE,China,Automobiles & Parts
+409,AGCO,US,Industrial Engineering
+410,SPLUNK,US,Software & Computer Services
+411,RWE,Germany,"Gas, Water & Multiutilities"
+412,VISTEON,US,Automobiles & Parts
+413,CONSTELLATION SOFTWARE,Canada,Software & Computer Services
+414,OPEN TEXT,Canada,Software & Computer Services
+415,KOITO MANUFACTURING,Japan,Automobiles & Parts
+416,SEKISUI CHEMICAL,Japan,Construction & Materials
+417,SYNAPTICS,US,Technology Hardware & Equipment
+418,GUANGZHOU AUTOMOBILE,China,Automobiles & Parts
+419,TERADYNE,US,Technology Hardware & Equipment
+420,BE AEROSPACE,US,Aerospace & Defence
+421,ALLSCRIPTS HEALTHCARE SOLUTIONS,US,Software & Computer Services
+422,SHANXI TAIGANG STAINLESS STEEL,China,Industrial Metals & Mining
+423,AKAMAI TECHNOLOGIES,US,Software & Computer Services
+424,COLGATE-PALMOLIVE,US,Personal Goods
+425,TERUMO,Japan,Health Care Equipment & Services
+426,GODADDY,US,Software & Computer Services
+427,FIREEYE,US,Software & Computer Services
+428,DASSAULT AVIATION,France,Aerospace & Defence
+429,SKY,UK,Media
+430,SKF,Sweden,Industrial Engineering
+431,SERVICENOW,US,Software & Computer Services
+432,DR REDDY'S LABORATORIES,India,Pharmaceuticals & Biotechnology
+433,L'AIR LIQUIDE,France,Chemicals
+434,ALSTOM,France,Industrial Engineering
+435,AU OPTRONICS,Taiwan,Electronic & Electrical Equipment
+436,SCIENTIFIC GAMES,US,Travel & Leisure
+437,TERADATA,US,Software & Computer Services
+438,ALPS ELECTRIC,Japan,Electronic & Electrical Equipment
+439,KERRY,Ireland,Food Producers
+440,HILTI,Liechtenstein,Construction & Materials
+441,GRUNENTHAL,Germany,Pharmaceuticals & Biotechnology
+442,ARISTA NETWORKS,US,Software & Computer Services
+443,COVESTRO,Germany,Chemicals
+444,RHEINMETALL,Germany,Automobiles & Parts
+445,PARKER-HANNIFIN,US,Industrial Engineering
+446,NUANCE COMMUNICATIONS,US,Software & Computer Services
+447,BAKER HUGHES A GE,US,Industrial Engineering
+448,JIANGLING MOTORS,China,Automobiles & Parts
+449,SQUARE,US,Software & Computer Services
+450,INVENTEC,Taiwan,Technology Hardware & Equipment
+451,DAI NIPPON PRINTING,Japan,Media
+452,BURELLE,France,General Industrials
+453,FIBERHOME TELEKOMMUNICATIONS TECHNOLOGIES,China,Fixed Line Telecommunications
+454,ADVANTEST,Japan,Technology Hardware & Equipment
+455,HASBRO,US,Leisure Goods
+456,NATIONAL INSTRUMENTS,US,Electronic & Electrical Equipment
+457,LESHI INTERNET INFORMATION & TECHNOLOGY CORPORATION,China,Software & Computer Services
+458,JUNO THERAPEUTICS,US,Pharmaceuticals & Biotechnology
+459,MITSUI CHEMICALS,Japan,Chemicals
+460,KINGSOFT,China,Software & Computer Services
+461,MALLINCKRODT,Ireland,Pharmaceuticals & Biotechnology
+462,YANDEX,Netherlands,Software & Computer Services
+463,NITTO DENKO,Japan,Chemicals
+464,TECHTRONIC INDUSTRIES,China,Electronic & Electrical Equipment
+465,DIEHL,Germany,General Industrials
+466,LEGRAND,France,Electronic & Electrical Equipment
+467,KOBE STEEL,Japan,Industrial Metals & Mining
+468,VERIFONE SYSTEMS,US,Technology Hardware & Equipment
+469,GEMALTO,Netherlands,Electronic & Electrical Equipment
+470,ELBIT SYSTEMS,Israel,Aerospace & Defence
+471,BAE SYSTEMS,UK,Aerospace & Defence
+472,COHERUS BIOSCIENCES,US,Pharmaceuticals & Biotechnology
+473,INTERNATIONAL FLAVORS & FRAGRANCES,US,Chemicals
+474,VARIAN MEDICAL SYSTEMS,US,Health Care Equipment & Services
+475,AMDOCS,UK,Software & Computer Services
+476,CLOVIS ONCOLOGY,US,Pharmaceuticals & Biotechnology
+477,NOVOZYMES,Denmark,Pharmaceuticals & Biotechnology
+478,DIALOG SEMICONDUCTOR,UK,Technology Hardware & Equipment
+479,PACCAR,US,Industrial Engineering
+480,MELLANOX TECHNOLOGIES,Israel,Technology Hardware & Equipment
+481,NAVISTAR INTERNATIONAL,US,Industrial Engineering
+482,PORTOLA PHARMACEUTICALS,US,Pharmaceuticals & Biotechnology
+483,CAVIUM,US,Technology Hardware & Equipment
+484,PURE STORAGE,US,Technology Hardware & Equipment
+485,ASSA ABLOY,Sweden,Construction & Materials
+486,KANEKA,Japan,Chemicals
+487,ANHEUSER-BUSCH INBEV,Belgium,Beverages
+488,NEXTEER,US,Automobiles & Parts
+489,NCR,US,Technology Hardware & Equipment
+490,INTUITIVE SURGICAL,US,Health Care Equipment & Services
+491,PIRELLI,Italy,Automobiles & Parts
+492,ARCELORMITTAL,Luxembourg,Industrial Metals & Mining
+493,ZILLOW GROUP,US,Real Estate Investment & Services
+494,WORLDPAY,UK,Support Services
+495,TESARO,US,Pharmaceuticals & Biotechnology
+496,NETSCOUT SYSTEMS,US,Software & Computer Services
+497,ARKEMA,France,Chemicals
+498,DANFOSS,Denmark,Industrial Engineering
+499,TOYODA GOSEI,Japan,Automobiles & Parts
+500,INFINERA,US,Technology Hardware & Equipment
+501,YOKOGAWA ELECTRIC,Japan,Electronic & Electrical Equipment
+502,HOLOGIC,US,Health Care Equipment & Services
+503,TOMTOM,Netherlands,Electronic & Electrical Equipment
+504,SMITH & NEPHEW,UK,Health Care Equipment & Services
+505,JOHNSON MATTHEY,UK,Chemicals
+506,PTC,US,Software & Computer Services
+507,SAAB,Sweden,Aerospace & Defence
+508,DRAGERWERK,Germany,Health Care Equipment & Services
+509,LIXIL GROUP,Japan,Construction & Materials
+510,CLAAS,Germany,Industrial Engineering
+511,GRIFOLS,Spain,Pharmaceuticals & Biotechnology
+512,NEWELL BRANDS,US,Household Goods & Home Construction
+513,DEUTSCHE TELEKOM,Germany,Fixed Line Telecommunications
+514,NOVAVAX,US,Pharmaceuticals & Biotechnology
+515,TEMENOS,Switzerland,Software & Computer Services
+516,ATHENAHEALTH,US,Software & Computer Services
+517,ROCKWELL COLLINS,US,Aerospace & Defence
+518,MEIJI,Japan,Food Producers
+519,ILLINOIS TOOL WORKS,US,Industrial Engineering
+520,IBERDROLA,Spain,Electricity
+521,SWATCH,Switzerland,Personal Goods
+522,WEYBOURNE GROUP,UK,Household Goods & Home Construction
+523,IPSEN,France,Pharmaceuticals & Biotechnology
+524,TOKAI RIKA,Japan,Automobiles & Parts
+525,DOLBY LABORATORIES,US,Media
+526,EASTMAN CHEMICAL,US,Chemicals
+527,TCL COMMUNICATION TECHNOLOGY,China,Technology Hardware & Equipment
+528,GENERAL MILLS,US,Food Producers
+529,FINISAR,US,Technology Hardware & Equipment
+530,DST SYSTEMS,US,Software & Computer Services
+531,BANK OF IRELAND,Ireland,Banks
+532,SPOTIFY,Luxembourg,Software & Computer Services
+533,SINA,China,Technology Hardware & Equipment
+534,MATTEL,US,Leisure Goods
+535,TOFAS,Turkey,Automobiles & Parts
+536,RELIANCE INDUSTRIES,India,Chemicals
+537,AVICHINA INDUSTRY & TECHNOLOGY,China,Industrial Transportation
+538,CHINA GREATWALL,China,Technology Hardware & Equipment
+539,SQUARE ENIX,UK,Software & Computer Services
+540,CHINA NATIONAL CHEMICAL ENGINEERING,China,Construction & Materials
+541,YAMAHA,Japan,Leisure Goods
+542,VESTAS WIND SYSTEMS,Denmark,Alternative Energy
+543,INGERSOLL-RAND,Ireland,Industrial Engineering
+544,SUMITOMO RUBBER INDUSTRIES,Japan,Automobiles & Parts
+545,SHENZHEN O FILM TECH,China,Electronic & Electrical Equipment
+546,POU CHEN,Taiwan,Personal Goods
+547,ZHENGZHOU YUTONG BUS,China,Automobiles & Parts
+548,BIO-RAD LABORATORIES,US,Health Care Equipment & Services
+549,ESSILOR INTERNATIONAL,France,Health Care Equipment & Services
+550,SUNTORY,Japan,Beverages
+551,CNOOC,China,Oil & Gas Producers
+552,ZHEJIANG DAHUA TECHNOLOGY,China,Leisure Goods
+553,STANLEY BLACK & DECKER,US,Household Goods & Home Construction
+554,ACCIONA,Spain,Construction & Materials
+555,PIONEER,Japan,Electronic & Electrical Equipment
+556,SINO BIOPHARMACEUTICAL,China,Pharmaceuticals & Biotechnology
+557,NEKTAR THERAPEUTICS,US,Pharmaceuticals & Biotechnology
+558,TEBIAN ELECTRIC APPARATUS STOCK,China,Electronic & Electrical Equipment
+559,ACORDA THERAPEUTICS,US,Pharmaceuticals & Biotechnology
+560,HESTEEL,China,Industrial Metals & Mining
+561,ALTRIA,US,Tobacco
+562,VIASAT,US,Technology Hardware & Equipment
+563,ENGIE,France,"Gas, Water & Multiutilities"
+564,TECHNICOLOR,France,Media
+565,MICRO FOCUS INTERNATIONAL,UK,Software & Computer Services
+566,COMMSCOPE,US,Mobile Telecommunications
+567,SHUTTERFLY,US,Software & Computer Services
+568,SILICON LABORATORIES,US,Technology Hardware & Equipment
+569,MAHINDRA & MAHINDRA,India,Automobiles & Parts
+570,BLUEBIRD BIO,US,Pharmaceuticals & Biotechnology
+571,BEIERSDORF,Germany,Personal Goods
+572,SYMRISE,Germany,Chemicals
+573,TPV TECHNOLOGY,China,Technology Hardware & Equipment
+574,CLARIANT,Switzerland,Chemicals
+575,BOLLORE,France,Industrial Transportation
+576,ROPER TECHNOLOGIES,US,Electronic & Electrical Equipment
+577,SANTEN PHARMACEUTICAL,Japan,Pharmaceuticals & Biotechnology
+578,INGENICO,France,Electronic & Electrical Equipment
+579,PERFECT WORLD,China,Software & Computer Services
+580,IAC/INTERACTIVECORP,US,Software & Computer Services
+581,JOHN LEWIS,UK,General Retailers
+582,WACKER CHEMIE,Germany,Chemicals
+583,ICAHN ENTERPRISES,US,General Industrials
+584,NISSHINBO,Japan,Personal Goods
+585,DEUTSCHE BAHN,Germany,Travel & Leisure
+586,KWS SAAT,Germany,Food Producers
+587,ECOLAB,US,Chemicals
+588,LITE-ON TECHNOLOGY,Taiwan,Technology Hardware & Equipment
+589,JVC KENWOOD,Japan,Leisure Goods
+590,SAREPTA THERAPEUTICS,US,Pharmaceuticals & Biotechnology
+591,CHINA GEZHOUBA,China,Construction & Materials
+592,SKYWORTH DIGITAL,China,Electronic & Electrical Equipment
+593,SK TELECOM,South Korea,Fixed Line Telecommunications
+594,GLENMARK PHARMACEUTICALS,India,Pharmaceuticals & Biotechnology
+595,POLARIS INDUSTRIES,US,Industrial Engineering
+596,SEI INVESTMENTS,US,Financial Services
+597,PERRIGO,Ireland,Pharmaceuticals & Biotechnology
+598,TREVENA,US,Pharmaceuticals & Biotechnology
+599,SNAP,US,Software & Computer Services
+600,AJINOMOTO,Japan,Food Producers
+601,ENDO INTERNATIONAL,Ireland,Pharmaceuticals & Biotechnology
+602,RECKITT BENCKISER,UK,Household Goods & Home Construction
+603,ANSYS,US,Software & Computer Services
+604,FORTINET,US,Software & Computer Services
+605,TAISHO PHARMACEUTICAL,Japan,Pharmaceuticals & Biotechnology
+606,KELLOGG,US,Food Producers
+607,DONGFANG ELECTRIC,China,Industrial Engineering
+608,NOVATEK MICROELECTRONICS,Taiwan,Electronic & Electrical Equipment
+609,DEUTSCHE BORSE,Germany,Financial Services
+610,KUDELSKI,Switzerland,Software & Computer Services
+611,KRONES,Germany,Industrial Engineering
+612,PETROLEOS DE VENEZUELA,Venezuela,Oil & Gas Producers
+613,LENS TECHNOLOGY,China,Construction & Materials
+614,ARISTOCRAT LEISURE,Australia,Travel & Leisure
+615,ESTEE LAUDER,US,Personal Goods
+616,JXTG,Japan,Oil & Gas Producers
+617,WINBOND ELECTRONICS,Taiwan,Technology Hardware & Equipment
+618,SAGE,UK,Software & Computer Services
+619,TAKATA,Japan,Automobiles & Parts
+620,ENDRESS & HAUSER,Switzerland,Electronic & Electrical Equipment
+621,KITE PHARMA,US,Pharmaceuticals & Biotechnology
+622,MTU AERO ENGINES,Germany,Aerospace & Defence
+623,ULTRAGENYX PHARMACEUTICAL,US,Pharmaceuticals & Biotechnology
+624,JACK HENRY & ASSOCIATES,US,Software & Computer Services
+625,AAC TECHNOLOGIES HOLDINGS,China,Electronic & Electrical Equipment
+626,VERINT SYSTEMS,US,Software & Computer Services
+627,HOYA,Japan,Leisure Goods
+628,ADIDAS,Germany,Personal Goods
+629,HARLEY-DAVIDSON,US,Automobiles & Parts
+630,INDRA SISTEMAS,Spain,Software & Computer Services
+631,CHECK POINT SOFTWARE TECHNOLOGIES,Israel,Software & Computer Services
+632,HYUNDAI HEAVY INDUSTRIES,South Korea,Industrial Engineering
+633,ACI WORLDWIDE,US,Software & Computer Services
+634,KURARAY,Japan,Chemicals
+635,ENI,Italy,Oil & Gas Producers
+636,KT,South Korea,Fixed Line Telecommunications
+637,ITRON,US,Electronic & Electrical Equipment
+638,TELEDYNE TECHNOLOGIES,US,Aerospace & Defence
+639,PANDORA MEDIA,US,Software & Computer Services
+640,MASTERCARD,US,Financial Services
+641,JSR,Japan,Chemicals
+642,SONOVA,Switzerland,Health Care Equipment & Services
+643,TOTO,Japan,Construction & Materials
+644,YUE YUEN INDUSTRIAL,China,Personal Goods
+645,AMPHENOL,US,Electronic & Electrical Equipment
+646,HISENSE ELECTRIC,China,Household Goods & Home Construction
+647,INTEGRATED DEVICE TECHNOLOGY,US,Technology Hardware & Equipment
+648,IAI,Israel,Aerospace & Defence
+649,MITSUBISHI GAS CHEMICAL,Japan,Chemicals
+650,NTN,Japan,Industrial Engineering
+651,UMICORE,Belgium,Industrial Metals & Mining
+652,VOESTALPINE,Austria,Industrial Metals & Mining
+653,MERZ,Germany,Pharmaceuticals & Biotechnology
+654,ALLIED IRISH BANKS,Ireland,Banks
+655,NINGBO JOYSON ELECTRONIC,China,Automobiles & Parts
+656,OLD MUTUAL,UK,Life Insurance
+657,PEARSON,UK,Media
+658,SNCF,France,Industrial Transportation
+659,SS&C TECHNOLOGIES,US,Software & Computer Services
+660,SANY HEAVY INDUSTRY,China,Industrial Engineering
+661,JAZZ PHARMACEUTICALS,Ireland,Pharmaceuticals & Biotechnology
+662,RSA INSURANCE,UK,Nonlife Insurance
+663,COBHAM,UK,Aerospace & Defence
+664,SINOPEC ENGINEERING,China,"Oil Equipment, Services & Distribution"
+665,ARCONIC,US,Industrial Metals & Mining
+666,58.COM,China,Software & Computer Services
+667,WEATHERFORD INTERNATIONAL,Ireland,"Oil Equipment, Services & Distribution"
+668,SIKA,Switzerland,Chemicals
+669,ULTIMATE SOFTWARE,US,Software & Computer Services
+670,CREE,US,Technology Hardware & Equipment
+671,NCSOFT,South Korea,Software & Computer Services
+672,NEWMARKET,US,Chemicals
+673,ASTON MARTIN UK,UK,Automobiles & Parts
+674,SHISEIDO,Japan,Personal Goods
+675,SHANGHAI TUNNEL ENGINEERING,China,Construction & Materials
+676,FIT HON TENG,China,Electronic & Electrical Equipment
+677,DEXCOM,US,Health Care Equipment & Services
+678,VISMA,Norway,Software & Computer Services
+679,EBERSPAECHER,Germany,Automobiles & Parts
+680,KION,Germany,Industrial Engineering
+681,YASKAWA ELECTRIC,Japan,Electronic & Electrical Equipment
+682,DNB,Norway,Banks
+683,EAST JAPAN RAILWAY,Japan,Travel & Leisure
+684,YELP,US,Media
+685,SCREEN HOLDINGS,Japan,Technology Hardware & Equipment
+686,BANDAI NAMCO,Japan,Leisure Goods
+687,HUNTSMAN,US,Chemicals
+688,PROXIMUS,Belgium,Mobile Telecommunications
+689,ELECTRONICS FOR IMAGING,US,Technology Hardware & Equipment
+690,ZIOPHARM ONCOLOGY,US,Pharmaceuticals & Biotechnology
+691,ECLIPSE,US,Oil & Gas Producers
+692,AGIOS PHARMACEUTICALS,US,Pharmaceuticals & Biotechnology
+693,NGK INSULATORS,Japan,General Industrials
+694,NICE,Israel,Software & Computer Services
+695,CDK,US,Software & Computer Services
+696,GANSU JIU STEEL GROUP HONG XING IRON & STEEL,China,Industrial Metals & Mining
+697,CHENG SHIN RUBBER INDUSTRY,Taiwan,Automobiles & Parts
+698,CARL BENNET,Sweden,Support Services
+699,FURUKAWA ELECTRIC,Japan,General Industrials
+700,SWISSCOM,Switzerland,Fixed Line Telecommunications
+701,EYGS,UK,Support Services
+702,BRUKER,US,Health Care Equipment & Services
+703,AGFA-GEVAERT,Belgium,Electronic & Electrical Equipment
+704,SHOWA DENKO,Japan,Chemicals
+705,KONE,Finland,Industrial Engineering
+706,GRUNDFOS,Denmark,Industrial Engineering
+707,FORMFACTOR,US,Technology Hardware & Equipment
+708,TOKYO ELECTRIC POWER,Japan,Electricity
+709,UNITED THERAPEUTICS,US,Pharmaceuticals & Biotechnology
+710,SICK,Germany,Electronic & Electrical Equipment
+711,FLIR SYSTEMS,US,Electronic & Electrical Equipment
+712,MOOG,US,Aerospace & Defence
+713,INTERCEPT PHARMACEUTICALS,US,Pharmaceuticals & Biotechnology
+714,HANWHA TECHWIN,South Korea,Leisure Goods
+715,AMS,Austria,Technology Hardware & Equipment
+716,PEGASYSTEMS,US,Software & Computer Services
+717,OPHTHOTECH,US,Pharmaceuticals & Biotechnology
+718,FIBROGEN,US,Pharmaceuticals & Biotechnology
+719,KUKA,Germany,Industrial Engineering
+720,RESMED,US,Health Care Equipment & Services
+721,WARTSILA,Finland,Industrial Engineering
+722,DAICEL,Japan,Chemicals
+723,LEAR,US,Automobiles & Parts
+724,VOITH,Germany,General Industrials
+725,FISERV,US,Support Services
+726,HUSQVARNA,Sweden,Industrial Engineering
+727,THERAVANCE BIOPHARMA,US,Pharmaceuticals & Biotechnology
+728,FMC,US,Chemicals
+729,LUMENTUM,US,Technology Hardware & Equipment
+730,FINCANTIERI,Italy,Industrial Engineering
+731,BELDEN,US,Electronic & Electrical Equipment
+732,QIAGEN,Netherlands,Pharmaceuticals & Biotechnology
+733,SCA,Sweden,Forestry & Paper
+734,AMERICAN AXLE & MANUFACTURING,US,Automobiles & Parts
+735,LEONI,Germany,Electronic & Electrical Equipment
+736,IRONWOOD PHARMACEUTICALS,US,Pharmaceuticals & Biotechnology
+737,VALSPAR,US,Construction & Materials
+738,MEDICINES,US,Pharmaceuticals & Biotechnology
+739,COTY,US,Personal Goods
+740,BRUNSWICK,US,Leisure Goods
+741,STORA ENSO,Finland,Forestry & Paper
+742,BAT,UK,Tobacco
+743,PERKINELMER,US,Electronic & Electrical Equipment
+744,LONDON STOCK EXCHANGE,UK,Financial Services
+745,LAFARGEHOLCIM,Switzerland,Construction & Materials
+746,SCHINDLER,Switzerland,Industrial Engineering
+747,LIFAN INDUSTRY,China,Automobiles & Parts
+748,NHK SPRING,Japan,Automobiles & Parts
+749,LANXESS,Germany,Chemicals
+750,KORBER,Germany,General Industrials
+751,SMITHS,UK,Electronic & Electrical Equipment
+752,NISSAN CHEMICAL INDUSTRIES,Japan,Chemicals
+753,SANKEN ELECTRIC,Japan,Technology Hardware & Equipment
+754,TAKE-TWO INTERACTIVE SOFTWARE,US,Software & Computer Services
+755,BIOVERATIV,US,Pharmaceuticals & Biotechnology
+756,SMC,Japan,Industrial Engineering
+757,ALTANA,Germany,Chemicals
+758,VIAVI SOLUTIONS,US,Technology Hardware & Equipment
+759,GETINGE,Sweden,Health Care Equipment & Services
+760,WABCO,US,Automobiles & Parts
+761,LENDINGCLUB,US,Financial Services
+762,HILL-ROM,US,Health Care Equipment & Services
+763,CHINA RAILWAY SIGNAL & COMMUNICATION,China,Travel & Leisure
+764,CLOROX,US,Household Goods & Home Construction
+765,BANCO POPULAR ESPANOL,Spain,Banks
+766,AXOVANT SCIENCES,US,Pharmaceuticals & Biotechnology
+767,ARRAY BIOPHARMA,US,Pharmaceuticals & Biotechnology
+768,LIVANOVA,UK,Health Care Equipment & Services
+769,FUJIKURA,Japan,Electronic & Electrical Equipment
+770,LUXSHARE PRECISION INDUSTRY,China,Electronic & Electrical Equipment
+771,ALDER BIOPHARMACEUTICALS,US,Pharmaceuticals & Biotechnology
+772,PENTAIR,Ireland,Industrial Engineering
+773,ALPINE,Japan,Leisure Goods
+774,PRADA,Italy,Personal Goods
+775,ISRAEL,Israel,General Industrials
+776,AIR PRODUCTS AND CHEMICALS,US,Chemicals
+777,ELEKTA,Sweden,Health Care Equipment & Services
+778,SYSMEX,Japan,Health Care Equipment & Services
+779,KDDI,Japan,Technology Hardware & Equipment
+780,KEMBLE WATER HOLDINGS,UK,"Gas, Water & Multiutilities"
+781,INTERSIL,US,Technology Hardware & Equipment
+782,SEALED AIR,US,General Industrials
+783,LOGITECH INTERNATIONAL,Switzerland,Technology Hardware & Equipment
+784,PLAYTECH,UK,Software & Computer Services
+785,MOCHIDA PHARMACEUTICAL,Japan,Pharmaceuticals & Biotechnology
+786,CHEETAH MOBILE,China,Software & Computer Services
+787,RAMBUS,US,Technology Hardware & Equipment
+788,CHINA CSSC,China,Industrial Engineering
+789,SINGAPORE TECHNOLOGIES ENGINEERING,Singapore,Construction & Materials
+790,DENTSPLY SIRONA,US,Health Care Equipment & Services
+791,HANON SYSTEMS,South Korea,Automobiles & Parts
+792,DAILY MAIL AND GENERAL TRUST,UK,Media
+793,MANN + HUMMEL HOLDING,Germany,Automobiles & Parts
+794,HERAEUS,Germany,Industrial Metals & Mining
+795,NIPPON SHINYAKU,Japan,Pharmaceuticals & Biotechnology
+796,LINDE,Germany,Chemicals
+797,UNIVERSAL SCIENTIFIC INDUSTRIAL,China,Leisure Goods
+798,GIESECKE & DEVRIENT,Germany,Support Services
+799,FORD OTOMOTIV,Turkey,Automobiles & Parts
+800,HANKOOK TIRE,South Korea,Automobiles & Parts
+801,BARCO,Belgium,Electronic & Electrical Equipment
+802,SENSATA TECHNOLOGIES HOLDING,Netherlands,Electronic & Electrical Equipment
+803,CIPLA,India,Pharmaceuticals & Biotechnology
+804,VIFOR PHARMA,Switzerland,Pharmaceuticals & Biotechnology
+805,ZUIVELCOOPERATIE FRIESLANDCAMPINA,Netherlands,Food Producers
+806,WATERS,US,Health Care Equipment & Services
+807,WOODWARD GOVERNOR,US,Industrial Engineering
+808,HIKMA PHARMACEUTICALS,UK,Pharmaceuticals & Biotechnology
+809,DISCO,Japan,Technology Hardware & Equipment
+810,SILICONWARE PRECISION INDUSTRIES,Taiwan,Technology Hardware & Equipment
+811,TIVO,US,Software & Computer Services
+812,HEIDELBERGER DRUCKMASCHINEN,Germany,Industrial Engineering
+813,ADTRAN,US,Technology Hardware & Equipment
+814,FIRST SOLAR,US,Alternative Energy
+815,KRKA,Slovenia,Pharmaceuticals & Biotechnology
+816,HEIDELBERGCEMENT,Germany,Construction & Materials
+817,MARKS & SPENCER,UK,General Retailers
+818,CAMPBELL SOUP,US,Food Producers
+819,YOKOHAMA RUBBER,Japan,Automobiles & Parts
+820,SUPER MICRO COMPUTER,US,Technology Hardware & Equipment
+821,BRP,Canada,Automobiles & Parts
+822,DATANG TELECOM TECHNOLOGY,China,Technology Hardware & Equipment
+823,HISAMITSU PHARMACEUTICAL,Japan,Pharmaceuticals & Biotechnology
+824,TOSOH,Japan,Chemicals
+825,CHINA NATIONAL SOFTWARE & SERVICE,China,Software & Computer Services
+826,INSMED,US,Pharmaceuticals & Biotechnology
+827,KONGSBERG GRUPPEN,Norway,Aerospace & Defence
+828,TOYO SEIKAN KAISHA,Japan,General Industrials
+829,PITNEY BOWES,US,Technology Hardware & Equipment
+830,SPECTRIS,UK,Electronic & Electrical Equipment
+831,WEBASTO,Germany,Automobiles & Parts
+832,TAIWAN POWER,Taiwan,Electricity
+833,DURR,Germany,Industrial Engineering
+834,RED BULL TECHNOLOGY,UK,Automobiles & Parts
+835,AMER SPORTS,Finland,Leisure Goods
+836,IBIDEN,Japan,Electronic & Electrical Equipment
+837,SAGE THERAPEUTICS,US,Pharmaceuticals & Biotechnology
+838,PHOENIX CONTACT,Germany,Electronic & Electrical Equipment
+839,GN STORE NORD,Denmark,Technology Hardware & Equipment
+840,SK INNOVATION,South Korea,Oil & Gas Producers
+841,RICHEMONT,Switzerland,General Retailers
+842,MACRONIX INTERNATIONAL,Taiwan,Technology Hardware & Equipment
+843,KRAFT HEINZ COMPANY,US,Food Producers
+844,METTLER-TOLEDO INTERNATIONAL,US,Electronic & Electrical Equipment
+845,TATUNG,Taiwan,Electronic & Electrical Equipment
+846,RICHTER GEDEON,Hungary,Pharmaceuticals & Biotechnology
+847,NIPPON KAYAKU,Japan,Chemicals
+848,GLORY,Japan,Industrial Engineering
+849,ORION OYJ,Finland,Pharmaceuticals & Biotechnology
+850,JAPAN DISPLAY,Japan,Electronic & Electrical Equipment
+851,INDIVIOR,UK,Pharmaceuticals & Biotechnology
+852,KISSEI PHARMACEUTICAL,Japan,Pharmaceuticals & Biotechnology
+853,CHINA TELECOM,China,Technology Hardware & Equipment
+854,SOFTWARE,Germany,Software & Computer Services
+855,MITSUBA,Japan,Automobiles & Parts
+856,STANLEY ELECTRIC,Japan,Automobiles & Parts
+857,GW PHARMACEUTICALS,UK,Pharmaceuticals & Biotechnology
+858,SOPHOS,UK,Software & Computer Services
+859,COOPER-STANDARD HOLDINGS,US,Automobiles & Parts
+860,SOPRA STERIA,France,Software & Computer Services
+861,AMKOR TECHNOLOGY,US,Technology Hardware & Equipment
+862,CHUNGHWA TELECOM,Taiwan,Fixed Line Telecommunications
+863,VAILLANT,Germany,Industrial Engineering
+864,LATTICE SEMICONDUCTOR,US,Technology Hardware & Equipment
+865,IDEXX LABORATORIES,US,Health Care Equipment & Services
+866,UBE INDUSTRIES,Japan,General Industrials
+867,ZHEN DING TECHNOLOGY HOLDING,Taiwan,Electronic & Electrical Equipment
+868,CRITEO,France,Media
+869,NUTANIX,US,Software & Computer Services
+870,FONTERRA CO-OPERATIVE,New Zealand,Food Producers
+871,BLACKBAUD,US,Software & Computer Services
+872,KYORIN,Japan,Pharmaceuticals & Biotechnology
+873,INFOSYS,India,Software & Computer Services
+874,SHANGHAI ZHENHUA,China,General Industrials
+875,ORBITAL ATK,US,Aerospace & Defence
+876,CONOCOPHILLIPS,US,Oil & Gas Producers
+877,BOX,US,Software & Computer Services
+878,MUNDIPHARMA RESEARCH,UK,Pharmaceuticals & Biotechnology
+879,INTERCONTINENTALEXCHANGE GROUP,US,Financial Services
+880,BOREALIS,Austria,Chemicals
+881,XINJIANG GOLDWIND SCIENCE & TECHNOLOGY,China,Industrial Engineering
+882,AKEBIA THERAPEUTICS,US,Pharmaceuticals & Biotechnology
+883,TOPPAN PRINTING,Japan,Support Services
+884,NIPPON SHOKUBAI,Japan,Chemicals
+885,ASM INTERNATIONAL,Netherlands,Technology Hardware & Equipment
+886,FUJIAN STAR NET COMMUNICATION,China,Technology Hardware & Equipment
+887,ZEON,Japan,Chemicals
+888,ADVANTECH,Taiwan,Technology Hardware & Equipment
+889,SHIMANO,Japan,Leisure Goods
+890,GUIDEWIRE SOFTWARE,US,Software & Computer Services
+891,TRIUMPH,US,Aerospace & Defence
+892,IDEMITSU KOSAN,Japan,Oil & Gas Producers
+893,MEDIDATA SOLUTIONS,US,Software & Computer Services
+894,CRAY,US,Technology Hardware & Equipment
+895,AMETEK,US,Electronic & Electrical Equipment
+896,SPIRENT COMMUNICATIONS,UK,Technology Hardware & Equipment
+897,ZHEJIANG HISUN PHARMACEUTICAL,China,Pharmaceuticals & Biotechnology
+898,DENKA,Japan,Chemicals
+899,HANMI PHARM,South Korea,Pharmaceuticals & Biotechnology
+900,OPKO HEALTH,US,Pharmaceuticals & Biotechnology
+901,HORIBA,Japan,Electronic & Electrical Equipment
+902,RABOBANK,Netherlands,Banks
+903,MKS INSTRUMENTS,US,Technology Hardware & Equipment
+904,CHINA NATIONAL MATERIALS,China,Construction & Materials
+905,XYLEM,US,"Gas, Water & Multiutilities"
+906,HEIWA,Japan,Industrial Engineering
+907,COCHLEAR,Australia,Health Care Equipment & Services
+908,HENGTONG OPTIC ELECTRIC,China,Technology Hardware & Equipment
+909,NAURA TECHNOLOGY,China,Electronic & Electrical Equipment
+910,HALOZYME THERAPEUTICS,US,Pharmaceuticals & Biotechnology
+911,INPHI,US,Technology Hardware & Equipment
+912,BTG,UK,Pharmaceuticals & Biotechnology
+913,EXPERIAN,UK,Support Services
+914,MA COM TECHNOLOGY SOLUTIONS,US,Technology Hardware & Equipment
+915,ZHEJIANG CHINT ELECTRICS,China,Electronic & Electrical Equipment
+916,RADIUS HEALTH,US,Pharmaceuticals & Biotechnology
+917,MEGGITT,UK,Aerospace & Defence
+918,ORBOTECH,Israel,Electronic & Electrical Equipment
+919,HYSTER-YALE MATERIALS HANDLING,US,Automobiles & Parts
+920,ENTEGRIS,US,Technology Hardware & Equipment
+921,CALIX,US,Technology Hardware & Equipment
+922,SYNCHRONOSS TECHNOLOGIES,US,Software & Computer Services
+923,BUHLER,Switzerland,Industrial Engineering
+924,ARLA FOODS,Denmark,Food Producers
+925,KINGFA SCIENCE & TECHNOLOGY,China,General Industrials
+926,WEICHAI POWER,China,Automobiles & Parts
+927,SHANDONG CHENMING PAPER,China,Forestry & Paper
+928,MINEBEA,Japan,Industrial Engineering
+929,BOUYGUES,France,Construction & Materials
+930,WIX.COM,Israel,Software & Computer Services
+931,WILLIAM DEMANT,Denmark,Health Care Equipment & Services
+932,ADVA,Germany,Technology Hardware & Equipment
+933,ALERE,US,Health Care Equipment & Services
+934,MICRO-STAR INTERNATIONAL,Taiwan,Technology Hardware & Equipment
+935,DIEBOLD,US,Technology Hardware & Equipment
+936,FUYAO GLASS GROUP INDUSTRIES,China,General Industrials
+937,DOVER,US,Industrial Engineering
+938,FAIR ISAAC,US,Software & Computer Services
+939,HAIMA AUTOMOBILE GROUP,China,Automobiles & Parts
+940,FUJITSU GENERAL,Japan,Construction & Materials
+941,HERON THERAPEUTICS,US,Pharmaceuticals & Biotechnology
+942,OSHKOSH,US,Industrial Engineering
+943,GREEN CROSS HOLDINGS,South Korea,Pharmaceuticals & Biotechnology
+944,NIPPON PAINT,Japan,Industrial Engineering
+945,SHANGHAI FOSUN PHARMACEUTICAL,China,Pharmaceuticals & Biotechnology
+946,IXIA,US,Software & Computer Services
+947,SEMTECH,US,Technology Hardware & Equipment
+948,QISDA,Taiwan,Technology Hardware & Equipment
+949,CLOUDERA,US,Software & Computer Services
+950,GEORG FISCHER,Switzerland,Industrial Engineering
+951,GROUPE SEB,France,Household Goods & Home Construction
+952,HAMAMATSU PHOTONICS,Japan,Electronic & Electrical Equipment
+953,AMBARELLA,US,Technology Hardware & Equipment
+954,AHOLD,Netherlands,Food & Drug Retailers
+955,SUMITOMO RIKO,Japan,Automobiles & Parts
+956,INFINITY PHARMACEUTICALS,US,Pharmaceuticals & Biotechnology
+957,KNOWLES,US,Leisure Goods
+958,TATA STEEL,India,Industrial Metals & Mining
+959,TIANNENG POWER,China,Electronic & Electrical Equipment
+960,TOTVS,Brazil,Software & Computer Services
+961,NOVOMATIC,Austria,Travel & Leisure
+962,ASHLAND,US,Chemicals
+963,TAKASAGO INTERNATIONAL,Japan,Chemicals
+964,ENDURANCE INTERNATIONAL GROUP HOLDINGS,US,Software & Computer Services
+965,PILATUS AIRCRAFT,Switzerland,Aerospace & Defence
+966,KBC,Belgium,Banks
+967,ZENDESK,US,Software & Computer Services
+968,LYONDELLBASELL INDUSTRIES,Netherlands,Chemicals
+969,CSG SYSTEMS INTERNATIONAL,US,Software & Computer Services
+970,NIPRO,Japan,Health Care Equipment & Services
+971,PROOFPOINT,US,Software & Computer Services
+972,HORTONWORKS,US,Software & Computer Services
+973,AMICUS THERAPEUTICS,US,Pharmaceuticals & Biotechnology
+974,TRULY INTERNATIONAL,China,Leisure Goods
+975,STRATASYS,Israel,Technology Hardware & Equipment
+976,MAXLINEAR,US,Technology Hardware & Equipment
+977,BUCHER INDUSTRIES,Switzerland,Industrial Engineering
+978,CARGOTEC,Finland,Industrial Engineering
+979,KANSAI ELECTRIC POWER,Japan,Electricity
+980,DORMAKABA,Switzerland,Support Services
+981,VEEVA SYSTEMS,US,Software & Computer Services
+982,SUMITOMO HEAVY INDUSTRIES,Japan,Industrial Engineering
+983,YY,China,Software & Computer Services
+984,SAMSUNG C&T,South Korea,Personal Goods
+985,MITSUBISHI MATERIALS,Japan,Industrial Metals & Mining
+986,ELLIE MAE,US,Software & Computer Services
+987,BEIGENE,China,Pharmaceuticals & Biotechnology
+988,II VI,US,General Industrials
+989,NETDRAGON WEBSOFT,China,Software & Computer Services
+990,HARMONIC,US,Technology Hardware & Equipment
+991,HYOSUNG,South Korea,General Industrials
+992,MITEL NETWORKS,Canada,Technology Hardware & Equipment
+993,AMP,Australia,Life Insurance
+994,STADA ARZNEIMITTEL,Germany,Pharmaceuticals & Biotechnology
+995,PHISON ELECTRONICS,Taiwan,Electronic & Electrical Equipment
+996,TYSON FOODS,US,Food Producers
+997,EXELIXIS,US,Pharmaceuticals & Biotechnology
+998,DIC,Japan,Chemicals
+999,CELLDEX THERAPEUTICS,US,Pharmaceuticals & Biotechnology
+1000,ESTERLINE TECHNOLOGIES,US,Aerospace & Defence
