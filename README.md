@@ -3,11 +3,12 @@
 <img src="http://pdslz41u3.bkt.clouddn.com/logo2.png">
 </p>
 
-# Python实战项目
+# Python爬虫实战项目
 
-[![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html) [![API](https://img.shields.io/badge/API-14%2B-yellow.svg?style=flat)](https://android-arsenal.com/api?level=14)
+[![Platform](https://img.shields.io/badge/platform-python-green.svg)](https://www.python.org/) [![API](https://img.shields.io/badge/API-3.6.5-yellow.svg?style=flat)](https://www.python.org/)
 
-现在使用较多的类似美团、外卖等APP的城市选择界面，**一行代码搞定**，就是这么简单粗暴！！！
+
+Python爬虫实战项目
 
 **Tips:**（旧版本1.x）会报高德定位jar包冲突，推荐使用2.x版本。
 
