@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="http://pdslz41u3.bkt.clouddn.com/logo.png">
+<img src="http://pdslz41u3.bkt.clouddn.com/logo2.png">
 </p>
 
 # Python实战项目
