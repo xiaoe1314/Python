@@ -1,10 +1,9 @@
-# Python
-Python实战项目：爬取糗事百科，拉勾网，boss直聘等等知名网站实战
+
 <p align="center">
-<img src="art/header.png">
+<img src="http://pdslz41u3.bkt.clouddn.com/logo.png">
 </p>
 
-# CityPicker
+# Python实战项目
 
 [![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html) [![API](https://img.shields.io/badge/API-14%2B-yellow.svg?style=flat)](https://android-arsenal.com/api?level=14)
 
