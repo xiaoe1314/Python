@@ -55,6 +55,11 @@
 
 # 内容持续更新中...
 
+我的简书：[https://www.jianshu.com/u/1fc350ed435b](https://www.jianshu.com/u/1fc350ed435b)
+
+我的csdn: [https://blog.csdn.net/qq_34363070](https://blog.csdn.net/qq_34363070)
+
+
 
 更多Python实战源码请关注 **朝南而行**  公众号
 
