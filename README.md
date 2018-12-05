@@ -36,7 +36,31 @@
 
 -   [爬虫框架之Scrapy入门篇](https://www.jianshu.com/p/0fa6dd942099)
 
+-   [Scrapy爬虫框架之CrawlSpider爬虫](https://www.jianshu.com/p/1332135518a8)
+
+-   [Scrapy-redis分布式组件之redis数据库](https://www.jianshu.com/p/9f8eb3d69fc7)
+
+-   [Scrapy爬虫框架之Request和Response（请求和响应）](https://www.jianshu.com/p/0bc667532227)
+
+-   [Scrapy爬虫框架之下载器中间件（可设置随机请求头和随机代理IP）](https://www.jianshu.com/p/6d10e2c7b52c)
+
+
+#### 其他教程
+
+-   [Pycharm永久破解激活2018版本(亲测可用)](https://www.jianshu.com/p/0663bad3aadf)
+
+-   [windows下使用virtualenv进行python虚拟环境的搭建](https://www.jianshu.com/p/c61767cc5103)
 
 大家觉得不错就给**start**吧
 
 # 内容持续更新中...
+
+我的简书：[https://www.jianshu.com/u/1fc350ed435b](https://www.jianshu.com/u/1fc350ed435b)
+
+我的csdn: [https://blog.csdn.net/qq_34363070](https://blog.csdn.net/qq_34363070)
+
+
+
+更多Python实战源码请关注 **朝南而行**  公众号
+
+![朝南而行](https://upload-images.jianshu.io/upload_images/1150982-da1c9c20907807ca.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
