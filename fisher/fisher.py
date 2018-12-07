@@ -55,5 +55,5 @@ app = create_app()
 if __name__ == '__main__':
     # 调试模式（性能差，不能展示错误信息给用户） flask 自带的服务器
     # 生产环境 Nginx + uwsgi （一般是不会使用flask自带的服务器）
-    app.run(host='127.0.0.1', port='66', debug=app.config['DEBUG'])
+    app.run(host='0.0.0.0', port='8888', debug=app.config['DEBUG'])
     # app.run(debug=True)

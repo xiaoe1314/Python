@@ -4,8 +4,8 @@
 
 # True会执行两次 restart
 # False只执行一次
-DEBUG = False
-
+DEBUG = True
+SQLALCHEMY_DATABASE_URI = 'mysql+cymysql://root:root@localhost:3306/fisher'
 
 
 
