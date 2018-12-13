@@ -7,6 +7,6 @@ from wtforms.validators import Length, NumberRange, DataRequired
 
 
 class SearchForm(Form):
-    q = StringField(DataRequired(), validators=[Length(min=1, max=30)])
+    q = StringField(DataRequired(), validators=[Length(min=1, max=30, message='字段长度必须介于1到30个字符之间')])
     page = IntegerField(validators=[NumberRange(min=1, max=99)], default=1)
 

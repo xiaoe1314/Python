@@ -11,24 +11,39 @@ class YuShuBook:
     isbn_url = 'http://t.yushu.im/v2/book/isbn/{}'
     keyword_url = 'http://t.yushu.im/v2/book/search?q={}&count={}&start={}'
 
-    @classmethod
-    def search_by_isbn(cls, isbn):
+    # 构造器
+    def __init__(self):
+        # 实例变量
+        self.total = 0
+        self.books = []
+
+    def search_by_isbn(self, isbn):
         # url = YuShuBook.isbn_url.format(isbn)
-        # 链式查找
-        url = cls.isbn_url.format(isbn)
+        # 链式查找（先从实例变量里面查找，如果没有则查找类变量）
+        url = self.isbn_url.format(isbn)
         result = HTTP.get(url)
+        self.__fill_single(result)
         # dist 返回的是字典
-        return result
+        # return result
 
-    @classmethod
-    def search_by_keyword(cls, keyword, page=1):
-        url = cls.keyword_url.format(keyword, current_app.config['PER_PAGE'], cls.calculate_start(page))
+    def __fill_single(self, data):
+        if data:
+            self.total = 1
+            self.books.append(data)
+
+    def __fill_collection(self, data):
+        if data:
+            self.total = 1
+            self.books.append(data)
+
+    def search_by_keyword(self, keyword, page=1):
+        url = self.keyword_url.format(keyword, current_app.config['PER_PAGE'], self.calculate_start(page))
         result = HTTP.get(url)
+        self.__fill_collection(result)
         # dist 返回的是字典
-        return result
+        # return result
 
-    @staticmethod
-    def calculate_start(page):
+    def calculate_start(self, page):
         return (page-1) * current_app.config['PER_PAGE']
 
 

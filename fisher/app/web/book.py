@@ -5,9 +5,10 @@ from flask import jsonify, request
 
 from app.libs.helper import is_isbn_or_key
 from app.spider.yushu_book import YuShuBook
+from app.view_models.book import BookViewModel, BookCollection
 from app.web import web
 from app.forms.book import SearchForm
-
+import json
 
 # <q>/<page> 添加参数
 # @web.route('/book/search/<num>/<page>')
@@ -25,19 +26,31 @@ def search():
     # num = request.args['q']
     # page = request.args['page']
     form = SearchForm(request.args)
+    books = BookCollection()
     # 如果效验通过
     if form.validate():
         # .strip()兼容用户在前后输入空格
-        p = form.q.data.strip()
+        q = form.q.data.strip()
         page = form.page.data
-        isbn_or_key = is_isbn_or_key(p)
+        isbn_or_key = is_isbn_or_key(q)
+        yushu_book = YuShuBook()
         if isbn_or_key == 'isbn':
-            result = YuShuBook.search_by_isbn(p)
+            yushu_book.search_by_isbn(q)
+
+            # result = YuShuBook.search_by_isbn(q)
+            # result = BookViewModel.package_single(result, q)
         else:
-            result = YuShuBook.search_by_keyword(p, page)
+            yushu_book.search_by_keyword(q, page)
+
+            # result = YuShuBook.search_by_keyword(q, page)
+            # result = BookViewModel.package_collection(result, q)
             # dict 序列化
             # API
-        return jsonify(result)
-        # return json.dumps(result, ensure_ascii=False), 200, {'content-type': 'application/json'}
+        books.fill(yushu_book, q)
+        # json 直接jsonify(books)
+        # object 看下面
+        return jsonify(books)
+        # return json.dumps(books, default=lambda o: o.__dict__, ensure_ascii=False),  200, {'content-type': 'application/json'}
+        # return json.dumps(books, default=lambda o: o.__dict__)
     else:
         return jsonify(form.errors)
