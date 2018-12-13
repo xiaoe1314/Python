@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+     {# url_for 反向构建url #}
+    <link rel="stylesheet" href="{{ url_for('static', filename='test.css') }}">
 </head>
 <body>
-$END$
+    {% block head %}
+        <div style="color: #ff2621">This is head</div>
+    {% endblock %}
+
+    {% block cotent %}
+        <div style="color: #ff2621">This is cotent</div>
+    {% endblock %}
+
+    {% block foot %}
+        <div style="color: #ff2621">This is foot</div>
+    {% endblock %}
 </body>
 </html>

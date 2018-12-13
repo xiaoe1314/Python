@@ -1,7 +1,7 @@
 """
     Created by 朝南而行 2018/12/5 16:36
 """
-from flask import jsonify, request
+from flask import jsonify, request, render_template, flash
 
 from app.libs.helper import is_isbn_or_key
 from app.spider.yushu_book import YuShuBook
@@ -47,10 +47,37 @@ def search():
             # dict 序列化
             # API
         books.fill(yushu_book, q)
+
         # json 直接jsonify(books)
         # object 看下面
-        return jsonify(books)
+        # return jsonify(books)
         # return json.dumps(books, default=lambda o: o.__dict__, ensure_ascii=False),  200, {'content-type': 'application/json'}
         # return json.dumps(books, default=lambda o: o.__dict__)
     else:
-        return jsonify(form.errors)
+        flash('关键字输入不符合要求，请重新输入关键字', category='error')
+        # return jsonify(form.errors)
+    return render_template('search_result.html', books=books)
+
+
+@web.route('/test')
+def test():
+    r = {
+        'name': '',
+        'age': 22
+    }
+    r1 = {
+        'name': '朝南而行',
+        'age': 22
+    }
+    # 消息闪现
+    flash('消息闪现666', category='1')
+    flash('消息闪现888', category='2')
+    # 模板
+    return render_template('test.html', data=r, data1=r1)
+
+
+@web.route('/book/detail/<isbn>')
+def book_detail(isbn):
+    pass
+
+

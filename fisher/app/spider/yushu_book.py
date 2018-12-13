@@ -22,6 +22,11 @@ class YuShuBook:
         # 链式查找（先从实例变量里面查找，如果没有则查找类变量）
         url = self.isbn_url.format(isbn)
         result = HTTP.get(url)
+        # 在获取到数据的时候，查询数据库有没有数据，如果有直接返回，如果没有则存到数据库
+        # if book:
+        #    return book
+        # else:
+        #     save(result)
         self.__fill_single(result)
         # dist 返回的是字典
         # return result
@@ -33,8 +38,8 @@ class YuShuBook:
 
     def __fill_collection(self, data):
         if data:
-            self.total = 1
-            self.books.append(data)
+            self.total = data['total']
+            self.books = data['books']
 
     def search_by_keyword(self, keyword, page=1):
         url = self.keyword_url.format(keyword, current_app.config['PER_PAGE'], self.calculate_start(page))

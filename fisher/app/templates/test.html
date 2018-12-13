@@ -1,10 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{# 引入模板继承 #}
+{% extends 'layout.html' %}
+{% block cotent %}
+    {# 加上super关键字会实现继承，不加则是填充 #}
+    {{ super() }}
+
+    {# Jinja2 注释 #}
+
+    {# if #}
+    {% if data.age > 22 %}
+            {{ data.age }}
+        {% elif data.age == 22 %}
+            {# default 过滤器访问没有的属性,data.school不是判断语句 #}
+            {# 竖线是管道命令 #}
+            {{ data.school | default('无名') }}
+            {{ data.school | default(data.name) | default('无名') }}
+            {# length 过滤器求参数的长度 #}
+            {{ data.name | length() }}
+        {% else %}
+            do something
+    {% endif %}
+
+    {# for #}
+
+    {% for foo in [1,2,3] %}
+        <div>
+            <p>
+                {{ foo }}
+            </p>
+        </div>
+    {% endfor %}
+
+    {# for dist #}
+    {% for key, value in data.items() %}
+        <div>
+            <p>
+                {{ value }}
+            </p>
+        </div>
+    {% endfor %}
+
+    {# 消息闪现 需要SECRET_KEY , 获取列表里面的值则需要category_filter #}
+    {# set 参数的作用域是整个block #}
+    {% set message_set = get_flashed_messages(category_filter=['1']) %}
+    {{ message_set }}
+
+    {# with 参数的作用域是只在with里面 #}
+    {% with message_with = get_flashed_messages(category_filter=['2']) %}
+        {{ message_with }}
+    {% endwith %}
+{% endblock %}
+

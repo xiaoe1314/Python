@@ -16,9 +16,10 @@ def create_app():
     app.config.from_object('app.setting')
     register_blueprint(app)
     # print(app.config['DEBUG'])
-
+    # 没有保存下来，下面使用不了app
     db.init_app(app)
-    db.create_all(app=app)
+    with app.app_context():
+        db.create_all()
     return app
 
 
