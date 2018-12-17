@@ -3,18 +3,10 @@
 """
 
 from sqlalchemy import Column, Integer, String
-from flask_sqlalchemy import SQLAlchemy
-
-# sqlalchemy
-# Flask_SQLAlchemy
-# 如何把book模型映射到数据库中去
-# 1 需要Flask_SQLAlchemy 核心对象
-# 2 实例化 Flask_SQLAlchemy
-# 3 要插入到app 核心对象上
-db = SQLAlchemy()
+from app.models.base import db, Base
 
 
-class Book(db.Model):
+class Book(Base):
     # 1 类型 2 设置为主键 3 自增长
     id = Column(Integer, primary_key=True, autoincrement=True)
     # 1 String类型，限制长度最大为50 2 不允许为空

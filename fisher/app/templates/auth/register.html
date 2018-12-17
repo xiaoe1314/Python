@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block head %}
     {{ super() }}
-   <link rel="stylesheet" href="{{url_for('static', filename='register.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='register.css') }}">
 {% endblock %}
 {% block navbar %}
 {% endblock %}
@@ -37,8 +37,8 @@
                 </div>
                 <div style="margin-top:30px;" class="row">
                     <div class="col-md-8 text-center col-md-offset-2">
-                        <span class="description-font">已有账号？</span><a
-                            href="{{ url_for('web.login') }}">登录</a>
+                        <span class="description-font">已有账号？</span>
+                        <a href="{{ url_for('web.login') }}">登录</a>
                     </div>
                 </div>
             </div>

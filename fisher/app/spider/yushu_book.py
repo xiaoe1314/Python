@@ -51,6 +51,10 @@ class YuShuBook:
     def calculate_start(self, page):
         return (page-1) * current_app.config['PER_PAGE']
 
+    # 在self.books如果没有数据的时候，直接返回self.books[0]会报错，用这样的表达式比较好
+    @property
+    def first(self):
+        return self.books[0] if self.total >= 1 else None
 
 
 

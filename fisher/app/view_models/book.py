@@ -58,9 +58,17 @@ class BookViewModel:
         self.publisher = book['publisher']
         self.pages = book['pages'] or ''
         self.author = '、'.join(book['author'])  # 列表转换为字符串  '、'.join(list) 通过、分割列表中的每一项
-        self.price = book['price']
+        self.price = '¥' + book['price']
         self.summary = book['summary'] or ''
         self.image = book['image']
+        self.isbn = book['isbn']
+
+    # @property将方法转换为属性
+    @property
+    def intro(self):
+        intros = filter(lambda x: True if x else False,
+                        [self.author, self.publisher, self.price])
+        return ' / '.join(intros)
 
 
 class BookCollection:

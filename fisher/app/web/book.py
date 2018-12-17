@@ -14,6 +14,7 @@ import json
 # @web.route('/book/search/<num>/<page>')
 # def search(num, page):
 
+
 @web.route('/book/search')
 def search():
     """
@@ -78,6 +79,10 @@ def test():
 
 @web.route('/book/detail/<isbn>')
 def book_detail(isbn):
-    pass
+    yushu_book = YuShuBook()
+    yushu_book.search_by_isbn(isbn)
+    book = BookViewModel(yushu_book.first)
+    return render_template('book_detail.html', book=book, wishes=[], gifts=[])
+
 
 
