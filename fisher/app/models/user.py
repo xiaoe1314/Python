@@ -4,10 +4,12 @@
 
 from sqlalchemy import Column, Integer, String, Boolean, Float
 from app.models.base import db, Base
-from werkzeug.security import generate_password_hash
+from werkzeug.security import generate_password_hash, check_password_hash
+from flask_login import UserMixin
+from app import login_manager
 
 
-class User(Base):
+class User(UserMixin, Base):
     # 1 设置数据库表的名字
     # __tablename__ = 'user1'
     # 1 类型 2 设置为主键 3 自增长
@@ -16,7 +18,7 @@ class User(Base):
     nickname = Column(String(24), nullable=False)
     phone_num = Column(String(18), unique=True)
     # 1 设置数据库字段的名字
-    _password = Column('password', String(128))
+    _password = Column('password', String(128), nullable=False)
     email = Column(String(50), unique=True, nullable=False)
     confirmed = Column(Boolean, default=False)
     beans = Column(Float, default=0)
@@ -32,3 +34,14 @@ class User(Base):
     def password(self, raw):
         self._password = generate_password_hash(raw)
 
+    # check_password_hash做密码的加密和对比， 相等返回True，不相等返回False
+    def check_password(self, raw):
+        return check_password_hash(self._password, raw)
+
+    # def get_id:
+    #     pass
+
+
+@login_manager.user_loader
+def get_user(uid):
+    return User.query.get(int(uid))

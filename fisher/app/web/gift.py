@@ -3,8 +3,10 @@
 # from flask import render_template, flash, request, redirect, url_for, current_app
 # from flask_login import login_required, current_user
 # from sqlalchemy import desc, func
+from flask_login import login_required
 
 from . import web
+
 # from app.spider.yushu_book import YuShuBook
 # from app.view_models.gift import MyGifts
 # from app.service.gift import GiftService
@@ -15,11 +17,10 @@ from . import web
 __author__ = '七月'
 
 
-# @web.route('/my/gifts')
-# @login_required
 @web.route('/my/gifts')
+@login_required
 def my_gifts():
-    pass
+    return 'My Gifts'
     # uid = current_user.id
     # gifts = Gift.query.filter_by(uid=uid, launched=False).order_by(
     #     desc(Gift.create_time)).all()
@@ -28,9 +29,8 @@ def my_gifts():
     # return render_template('my_gifts.html', gifts=view_model)
 
 
-# @web.route('/gifts/book/<isbn>')
-# @login_required
 @web.route('/gifts/book/<isbn>')
+@login_required
 def save_to_gifts(isbn):
     pass
     # yushu_book = YuShuBook()

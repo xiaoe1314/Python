@@ -2,9 +2,12 @@
     Created by 朝南而行 2018/12/5 16:36
 """
 from flask import Flask
+from flask_login import LoginManager, login_user
 from app.models.book import db
 
 __author__ = '朝南而行'
+
+login_manager = LoginManager()
 
 
 def create_app():
@@ -18,8 +21,12 @@ def create_app():
     # print(app.config['DEBUG'])
     # 没有保存下来，下面使用不了app
     db.init_app(app)
+    login_manager.init_app(app)
+    login_manager.login_view = 'web.login'
+    login_manager.login_message = '请先登录或者注册'
     with app.app_context():
         db.create_all()
+
     return app
 
 

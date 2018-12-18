@@ -2,11 +2,13 @@
 # from flask import request, flash, url_for
 # from flask_login import login_user, login_required, logout_user, current_user
 # from flask_sqlalchemy import get_debug_queries
+from flask_login import login_user
+
 from app.forms.auth import RegisterForm, LoginForm
 from app.models.base import db
 from app.models.user import User
 from . import web
-from flask import render_template, request, redirect, url_for
+from flask import render_template, request, redirect, url_for, make_response, session, flash
 
 # from app.forms.auth import RegisterForm, LoginForm, ResetPasswordForm, EmailForm, \
 #     ChangePasswordForm
@@ -25,7 +27,7 @@ def register():
         user.set_attrs(form.data)
         db.session.add(user)
         db.session.commit()
-        redirect(url_for('web.login'))
+        return redirect(url_for('web.login'))
         # user.nickname = form.nickname.data
         # user.email = form.email.data
 
@@ -50,6 +52,19 @@ def register():
 @web.route('/login', methods=['GET', 'POST'])
 def login():
     form = LoginForm(request.form)
+    if request.method == 'POST' and form.validate():
+        user = User.query.filter_by(email=form.email.data).first()
+        if user and user.check_password(form.password.data):
+            # 使用get_id写入cookie中，一次性cookie，关闭浏览器之后就会消失
+            login_user(user)
+            # 加上remember变成持续性的cookie,有效期默认是365天
+            # login_user(user, remember=True)
+            next_url = request.args.get('next')
+            if not next_url or not next_url.startswith('/'):
+                next_url = url_for('web.index')
+            return redirect(next_url)
+        else:
+            flash('账号不存在或者密码不正确')
     return render_template('auth/login.html', form=form)
 #     form = LoginForm(request.form)
 #     if request.method == 'POST' and form.validate():
@@ -67,7 +82,9 @@ def login():
 
 @web.route('/reset/password', methods=['GET', 'POST'])
 def forget_password_request():
-    pass
+    response = make_response('hello MR7')
+    response.set_cookie('name', 'MR7', 30)
+    return response
     # if request.method == 'POST':
     #     form = EmailForm(request.form)
     #     if form.validate():
