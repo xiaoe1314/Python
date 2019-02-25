@@ -66,10 +66,43 @@ import re
 # print(a_test.group())
 
 
-text = "hellHo"
-# 匹配开头是h的字符
-ret = re.match('^h.+', text)
-# 匹配不是h的字符
-ret_two = re.match('[^o]+?', text)
-print(ret.group())
-print(ret_two .group())
+# text = "hellHo"
+# # 匹配开头是h的字符
+# ret = re.match('^h.+', text)
+# # 匹配不是h的字符
+# ret_two = re.match('[^o]+?', text)
+# print(ret.group())
+# print(ret_two .group())
+from selenium import webdriver
+import time
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from lxml import etree
+import os, requests
+from contextlib import closing
+
+a = 'http://b317.photo.store.qq.com/psbe?/V12d1wl910x6ss/VIys*DZ7YV4MWjCOWdE.17Nf7ahi0NSIj6AdwgjiSFweozU62pIYuHAweCIZK4IJ/b/dD0BAAAAAAAA&bo=VAY4BHAXoA8RCZg!&rf=viewer_4'
+
+# b = a.split('&')[-1]
+#
+# print(b)
+
+path = os.path.join(os.path.dirname(__file__), 'img')
+if not os.path.exists(path):
+    os.mkdir(path)
+    print('路径不存在')
+else:
+    print('路径存在')
+
+with closing(requests.get(a, stream=True)) as response:
+    chunk_size = 1024  # 单次请求最大值
+    content_size = int(response.headers['content-length'])  # 内容体总大小
+    data_count = 0
+    with open(os.path.join(path, '1.jpg'), "wb") as file:
+        for data in response.iter_content(chunk_size=chunk_size):
+            file.write(data)
+            data_count = data_count + len(data)
+            now_jd = (data_count / content_size) * 100
+            print("\r 文件下载进度：%d%%(%d/%d) - %s" %
+                  (now_jd, data_count, content_size, a), end=" ")
