@@ -7,6 +7,10 @@
 
 [![Platform](https://img.shields.io/badge/platform-python-green.svg)](https://www.python.org/) [![API](https://img.shields.io/badge/API-3.6.5-yellow.svg?style=flat)](https://www.python.org/)
 
+### python从入门到进阶
+
+-   [Python3 基本数据类型](https://www.jianshu.com/p/d23ac3aa4e76)
+
 
 #### 实战教程：
 
@@ -44,6 +48,20 @@
 
 -   [Scrapy爬虫框架之下载器中间件（可设置随机请求头和随机代理IP）](https://www.jianshu.com/p/6d10e2c7b52c)
 
+### HTML+CSS从入门到进阶
+
+-   [HTML+CSS入门篇（上）](https://www.jianshu.com/p/7aa0b5274181)
+
+-   [HTML+CSS入门篇（下）](https://www.jianshu.com/p/37e1791144fc)
+
+-   [JavaScript入门篇](https://www.jianshu.com/p/c49175664c9c)
+
+-   [JavaScript进阶篇（上）](https://www.jianshu.com/p/e05ff60c800f)
+
+-   [JavaScript进阶篇（下）](https://www.jianshu.com/p/0482d5a2429e)
+
+-   [响应式网站开发实战](https://www.jianshu.com/p/d04fb62d54ee)
+
 
 #### 其他教程
 
@@ -56,9 +74,6 @@
 # 内容持续更新中...
 
 我的简书：[https://www.jianshu.com/u/1fc350ed435b](https://www.jianshu.com/u/1fc350ed435b)
-
-我的csdn: [https://blog.csdn.net/qq_34363070](https://blog.csdn.net/qq_34363070)
-
 
 
 更多Python实战源码请关注 **朝南而行**  公众号
