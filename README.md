@@ -12,7 +12,7 @@
 -   [Python3 基本数据类型](https://www.jianshu.com/p/d23ac3aa4e76)
 
 
-#### 实战教程：
+#### python网络爬虫：
 
 -   [什么是网络爬虫](https://www.jianshu.com/p/c046e974dcab)
 
