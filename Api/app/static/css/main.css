@@ -1,0 +1,665 @@
+/************
+ * 页面样式
+ ************/
+
+/* =========
+   基本默认值
+   ========= */
+
+html {
+    font-size: 62.5%;
+    color: #333;
+    font-family: "Microsoft YaHei", serif;
+}
+
+::selection {
+    background-color: #b3d4fc;
+    text-shadow: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* ==========
+    工具样式
+ ========== */
+
+/*居中显示*/
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ===============
+   浏览器更新提示
+   =============== */
+
+.browserupgrade {
+    margin: 0;
+    padding: 1rem;
+    background: #ccc;
+}
+
+/* ===============
+   自定义页面样式
+   =============== */
+
+body {
+    font-size: 1.2rem;
+    background-color: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #ff9900;
+    text-decoration: underline;
+}
+
+
+
+
+/** 网站头部 *!*/
+
+header {
+    width: 100%;
+    background: #666;
+
+    padding-bottom: 2rem;
+    color: #fff;
+}
+
+header div {
+    width: 1140px;
+    margin:0 auto;
+}
+
+header .nav {
+    line-height: 2rem;
+    padding-top: 2rem;
+}
+
+header div .logo {
+    float: left;
+    font-size: 2.2rem;
+    padding: 0 1rem;
+}
+
+header div ul {
+    text-align: right;
+    font-size: 1.4rem;
+}
+
+header div ul li {
+    display: inline-block;
+}
+
+header div ul li i {
+    border-left: 2px solid #fff;
+    width: 10px;
+}
+
+header div ul li a {
+    display: inline-block;
+    padding: 0 1rem;
+    color: #fff;
+}
+
+
+/* 搜索 */
+
+header .search {
+    text-align: center;
+}
+
+header .search h1{
+    padding-top: 3rem;
+    font-size: 5rem;
+    margin: 0;
+}
+
+header .search p{
+    font-size: 1.8rem;
+    padding: 0 1rem;
+    line-height: 2rem;
+}
+
+header .search .api-num{
+    font-size: 1.2rem;
+}
+
+header .search span strong{
+    padding: 0 5px;
+    font-size: 1.5rem;
+}
+
+
+.input-wrap {
+    background: #fff;
+    max-width: 640px;
+    height: 40px;
+    font-size: 1.6rem;
+}
+
+
+.form-control {
+    width: 60%;
+    float: left;
+    text-align: center;
+    border: 0;
+    outline:none;
+    margin: 0 0 0 80px;
+    padding: 10px;
+}
+
+.search-btn {
+    width: 15%;
+    text-align: center;
+    float: right;
+    padding:8px 10px;
+    margin: 3px;
+    background: #666;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.recommend {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.recommend a{
+    display:inline-block;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 8px 15px;
+    margin: 2.5rem 1rem 0 1rem;
+}
+
+.recommend a:hover {
+    text-decoration: none;
+    outline: 0;
+    background: #fff;
+    color: #333;
+}
+
+
+/* 网站主要内容 */
+
+.container-content {
+    width: 100%;
+}
+
+
+/* 平台特点 */
+
+.feature {
+    width: 1140px;
+    margin: 2rem auto;
+    font-size: 0;
+}
+
+.feature .item {
+    display: inline-block;
+    width: calc(33.333% - 2.7rem);
+    padding: 1rem;
+    font-size: 1.4rem;
+    background-color: #fff;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.feature .item + .item {
+    margin-left: 1rem;
+}
+
+.feature .item h3 {
+    display: inline-block;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    font-size: 3.3rem;
+    text-align: center;
+    color: #ff9900;
+}
+
+.feature .item p {
+    display: inline-block;
+    width: 55%;
+    margin: 0;
+    padding: 0;
+    color: #999;
+}
+
+/*  api服务 */
+
+.api {
+    width: 1140px;
+    margin: 1rem auto;
+
+}
+
+.api-content {
+    width: calc(78% - 1rem);
+    float: left;
+    /*background-color: #fff;*/
+    /*box-shadow: 0 0 4px #ccc;*/
+
+}
+
+.api-content .api-content-top {
+    width: calc(100%- 2rem);
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.api-content .api-content-top span:first-child {
+    border-left: 2px solid #ff9900;
+    width: 10px;
+    margin-right: 1rem;
+}
+
+.api-content-box-main {
+    /*margin: 0 1rem;*/
+}
+
+.api-content-box {
+    display: inline-block;
+    padding: 1.5rem;
+    width: calc(50% - 3.75rem);
+    float: left;
+    background: #fff;
+    margin: 0 0 3rem 0;
+}
+
+.api-content-box:hover {
+
+    box-shadow: 0 2px 8px 1px #888;
+}
+
+.api-content-box + .api-content-box {
+    margin-left: 1rem;
+}
+
+.api-content-box span {
+    display: block;
+    text-align: center;
+    font-size: 3.2rem;
+}
+
+.api-content-box div {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #666666;
+}
+
+.api-content-box a {
+    display: block;
+    float: left;
+    line-height: 2rem;
+    /*color: black;*/
+}
+
+.api-content-box a + a {
+    margin-left: 1rem;
+}
+
+
+.friend-url-content {
+    width: calc(22%);
+    float: right;
+    background-color: #fff;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.friend-url-content .friend-top {
+    margin: 1rem 1rem 0 1rem;
+    font-size: 1.5rem;
+}
+
+.friend-url-content .friend-top span:first-child {
+    border-left: 2px solid #ff9900;
+    width: 10px;
+    margin-right: 1rem;
+}
+
+.friend-url-content ul li {
+    margin: 1rem 1rem 0 1rem;
+
+}
+
+.friend-url-content ul li a img{
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.friend-url-content ul li a img:hover{
+    border: 1px solid #ff9900;
+}
+
+.friend-url-content ul li a {
+    color: #333;
+}
+
+.friend-url-content ul li a:hover,
+.friend-url-content ul li a:active {
+    color: #ff9900;
+    text-decoration: underline;
+}
+
+.friend-url-content ul li span {
+    display: none;
+}
+
+
+
+.friend-url-content ul li a img:last-child{
+    margin-bottom: 1rem;
+}
+
+/* 底部导航 */
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.1rem 0;
+    background-color: #666;
+    color: #fff;
+}
+
+/* 右下角二维码和回到顶部 */
+
+
+.tally {
+    position:fixed;
+    width:40px;
+	right:0.8rem;
+    bottom: 10rem;
+    background: #fff;
+    border:1px solid #ccc;
+}
+
+.qr-code {
+    position:fixed;
+    width:150px;
+    height: 165px;
+	right:5.2rem;
+    bottom:10rem;
+    display: none;
+    background: url(../img/wx-code.png) no-repeat;
+}
+
+.tally a {
+    display: inline-block;
+    width:100%;
+    height: 40px;
+}
+
+
+
+.tally a + a {
+    border-top: 1px solid #ccc;
+}
+
+
+.tally a:first-child {
+    display: block;
+    background: url(../img/icon_zxing_no.png) no-repeat;
+}
+
+.tally a:first-child:hover {
+    background: url(../img/icon_zxing.png) no-repeat;
+}
+
+.tally a:first-child:hover{
+    background: url(../img/icon_zxing.png) no-repeat;
+}
+.tally a:first-child:hover .qr-code{
+    display: block;
+}
+
+.tally a:last-child {
+    display: block;
+    background: url(../img/icon_back_to_top.png) no-repeat;
+}
+
+.tally a:last-child:hover {
+    background: url(../img/icon_back_to_top_text.png) no-repeat;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 75em){
+    header {
+        width: 100%;
+    }
+    header div {
+        width: 95%;
+    }
+
+    .container-content {
+        width: 100%;
+    }
+
+    .feature {
+        width: 95%;
+    }
+
+    .api {
+        width: 95%;
+    }
+
+}
+
+
+@media only screen and (max-width: 48em){
+    header {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    header .search h1{
+        font-size: 3.5rem;
+    }
+
+
+    .form-control {
+        margin: 0 0 0 60px;
+    }
+
+    .feature .item h3 {
+        margin-bottom: 1rem;
+    }
+
+    .feature .item h3,
+    .feature .item p {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .feature .item p {
+        font-size: 1.2rem;
+    }
+
+    .friend-url-content .friend-top {
+        font-size: 1rem;
+    }
+
+    .friend-url-content .friend-top span:first-child {
+        width: 8px;
+        margin-right: 0.5rem;
+    }
+
+    .friend-url-content ul li a img{
+        display: none;
+    }
+
+    .friend-url-content ul li span {
+        width: 100%;
+        display: block;
+        font-size: 1.3rem;
+        box-shadow: 0 0 4px #ccc;
+        text-align: center;
+        padding: 0.8rem 0;
+        color: #666;
+    }
+
+    .friend-url-content ul li span:hover {
+        background: #ff9900;
+        border: 1px solid #ff9900;
+        color: #fff;
+    }
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 30em){
+    header .search p{
+        font-size: 1.6rem;
+    }
+
+    .input-wrap {
+        font-size: 1.2rem;
+    }
+
+    .form-control {
+        margin: 0 0 0 20px;
+        padding:13px;
+    }
+
+    .search-btn {
+        padding:10px 10px;
+    }
+
+    .recommend a{
+        margin: 2rem 0.5rem 0 0.5rem;
+    }
+
+
+    .feature {
+        margin: 0 auto;
+    }
+
+
+    .feature .item h3 {
+        display: inline-block;
+        width: 40%;
+        margin: 0;
+    }
+    .feature .item p {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .feature .item {
+        display: block;
+        width: auto;
+        margin: 1rem 0 0 0;
+    }
+
+    .feature .item + .item {
+        margin: 1rem 0 0 0;
+    }
+
+    .api-content {
+        width: 100%;
+    }
+
+    .friend-url-content {
+        display: none;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 21.25em){
+    .form-control {
+        width: 72%;
+        padding:13px 0;
+        margin: 0 0 0 10px;
+    }
+    .search-btn {
+        width: 18%;
+    }
+
+    .recommend a{
+        margin: 1.5rem 0.25rem 0 0.25rem;
+    }
+}

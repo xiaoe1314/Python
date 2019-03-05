@@ -1,0 +1,224 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>API导航 - 支持Android、IOS、小程序、前端调用的免费API服务</title>
+{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}">
+{% endblock %}
+
+{% block search %}
+<div class="search">
+        <h1 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">API导航</h1>
+        <p class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.6s">支持Android、IOS、小程序、前端调用的免费API服务<br>
+            <span class="api-num wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
+                共有<strong>100+</strong>个免费的API
+            </span>
+        </p>
+        <div class="input-wrap">
+            <form action="" class="input-style">
+                <input type="text" placeholder="可搜索完整的项目或者单独的API" class="form-control" name="username">
+                <button type="submit" class="search-btn">搜索</button>
+            </form>
+        </div>
+
+        <div class="recommend">
+            <a href="#" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.5s">小A资讯</a>
+            <a href="#" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.8s">小A商城</a>
+            <a href="#" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="2.1s">小A视频</a>
+            <a href="#" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="2.4s">小A音乐</a>
+        </div>
+
+        <div class="recommend">
+            <a href="#" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="3s">首页</a>
+            <a href="#" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="3.3s">登录</a>
+            <a href="#" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="3.6s">注册</a>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+<div class="container-content">
+    <section class="feature">
+        <div class="item">
+            <h3>支持</h3>
+            <p>所有API全部免费<br>支持移动端、小程序、前端<br>模仿企业完整的项目API</p>
+        </div>
+        <div class="item">
+            <h3>说明</h3>
+            <p>每天每个API最多<br>可调用100次，如有特殊需<br>要请在微信公众号留言</p>
+        </div>
+        <div class="item">
+            <h3>声明</h3>
+            <p>所有API均由于官<br>方根据现有的产品自定义完<br>成，如有侵权请联系</p>
+        </div>
+    </section>
+
+</div>
+<div class="api clearfix">
+    <div class="api-content">
+        <div class="api-content-top">
+            <span></span>
+            <span>新闻资讯</span>
+        </div>
+        <div class="api-content-box-main">
+
+            <div class="api-content-box">
+                <span>小A新闻</span>
+                <div>完整的新闻资讯API</div>
+                <p>首页</p>
+                <a href="#">首页列表</a>
+                <a href="#">首页详情页</a><br>
+                <p>个人中心</p>
+                <a href="#">注册</a>
+                <a href="#">登录</a>
+                <a href="#">找回密码</a>
+                <a href="#">重置密码</a>
+            </div>
+
+            <div class="api-content-box">
+                <span>小A新闻</span>
+                <div>完整的新闻资讯API</div>
+                <p>首页</p>
+                <a href="#">首页列表</a>
+                <a href="#">首页详情页</a><br>
+                <p>个人中心</p>
+                <a href="#">注册</a>
+                <a href="#">登录</a>
+                <a href="#">找回密码</a>
+                <a href="#">重置密码</a>
+            </div>
+
+        </div>
+
+        <div class="api-content-top">
+            <span></span>
+            <span>新闻资讯</span>
+        </div>
+        <div class="api-content-box-main">
+
+            <div class="api-content-box">
+                <p><span>小A新闻</span><br>网站APP项目的 Api，有登录，注册，找回 密码，重置密码等等。</p>
+                <p>首页</p>
+                <a href="#">首页列表</a>
+                <a href="#">首页详情页</a><br>
+                <p>个人中心</p>
+                <a href="#">注册</a>
+                <a href="#">登录</a>
+                <a href="#">找回密码</a>
+                <a href="#">重置密码</a>
+            </div>
+
+            <div class="api-content-box">
+                <p><span>小A新闻</span><br>网站APP项目的 Api，有登录，注册，找回 密码，重置密码等等。</p>
+                <p>首页</p>
+                <a href="#">首页列表</a>
+                <a href="#">首页详情页</a><br>
+                <p>个人中心</p>
+                <a href="#">注册</a>
+                <a href="#">登录</a>
+                <a href="#">找回密码</a>
+                <a href="#">重置密码</a>
+            </div>
+
+        </div>
+
+        <div class="api-content-top">
+            <span></span>
+            <span>新闻资讯</span>
+        </div>
+        <div class="api-content-box-main">
+
+            <div class="api-content-box">
+                <p><span>小A新闻</span><br>网站APP项目的 Api，有登录，注册，找回 密码，重置密码等等。</p>
+                <p>首页</p>
+                <a href="#">首页列表</a>
+                <a href="#">首页详情页</a><br>
+                <p>个人中心</p>
+                <a href="#">注册</a>
+                <a href="#">登录</a>
+                <a href="#">找回密码</a>
+                <a href="#">重置密码</a>
+            </div>
+
+            <div class="api-content-box">
+                <p><span>小A新闻</span><br>网站APP项目的 Api，有登录，注册，找回 密码，重置密码等等。</p>
+                <p>首页</p>
+                <a href="#">首页列表</a>
+                <a href="#">首页详情页</a><br>
+                <p>个人中心</p>
+                <a href="#">注册</a>
+                <a href="#">登录</a>
+                <a href="#">找回密码</a>
+                <a href="#">重置密码</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="friend-url-content">
+        <div class="friend-top">
+            <span></span>
+            <span>友情链接</span>
+        </div>
+        <ul>
+            <li>
+                <a href="http://www.jikedaohang.com" target="_blank" title="极客导航">
+                    <span>极客导航</span>
+                    <img src="http://www.wanandroid.com/blogimgs/78efb2f1-cc7c-4d6d-ac3c-53688fbe2abd.png"/>
+                </a>
+            </li>
+
+            <li>
+                <a href="http://www.jowanxu.top/" target="_blank" title="叫我旺仔">
+                    <span>叫我旺仔</span>
+                    <img src="http://www.wanandroid.com/blogimgs/2c1d0ec6-092d-45e9-94c2-17d7a99dea0a.png"/>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://kymjs.com/" target="_blank" title="开源实验室">
+                    <span>开源实验室</span>
+                    <img src="http://www.wanandroid.com/blogimgs/5a9117f3-17bd-4826-86db-a5b63df75c4d.png"/>
+                </a>
+            </li>
+
+            <li>
+                <a href="http://www.jackywang.tech/archives/" target="_blank">
+                    <img src="http://www.wanandroid.com/blogimgs/c7854833-1ac7-48e3-a5c9-92b88f34db3f.jpg"/>
+                </a>
+            </li>
+
+            <li>
+                <a href="http://ocnyang.com/" target="_blank">
+                    <img src="http://www.wanandroid.com/blogimgs/01de216e-0274-49a9-ae97-614bb4d5adc2.png"/>
+                </a>
+            </li>
+
+            <li>
+                <a href="http://wuxiaolong.me/" target="_blank">
+                    <img src="http://www.wanandroid.com/blogimgs/ac262ef2-c375-44c0-835c-6cf82c745c43.png"/>
+                </a>
+            </li>
+
+            <li>
+                <a href="http://www.gcssloop.com" target="_blank">
+                    <img src="http://www.wanandroid.com/blogimgs/55b67cfe-1470-4b96-a669-32706cb04cb5.jpeg"/>
+                </a>
+            </li>
+
+            <li>
+                <a href="http://www.gitout.cn/" target="_blank">
+                    <img src="http://www.wanandroid.com/blogimgs/46e24a5a-f0d0-4401-ae33-14b3d644ed30.png"/>
+                </a>
+            </li>
+
+            <li>
+                <a href="http://xiaweizi.cn/" target="_blank">
+                    <img src="http://www.wanandroid.com/blogimgs/d5390e8a-ecf2-47fb-8573-f5f16b286e17.png"/>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+{% endblock %}

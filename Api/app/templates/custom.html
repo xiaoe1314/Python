@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--兼容ie浏览器：表示强制已最新的ie浏览器渲染-->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        a:hover, a:active {
+            color: #ff9900;
+            text-decoration: underline;
+        }
+
+        .nav {
+            width: 100%;
+            background: #666666;
+            {#border: 1px solid #66ff3d;#}
+            {#position: relative;#}
+        }
+
+        .nav-content {
+            width: 1140px;
+            height: 50px;
+            margin: 0 auto;
+            padding:10px 0;
+            {#border: 1px solid red;#}
+
+        }
+
+        .nav-left {
+            float: left;
+            line-height: 50px;
+            font-size: 1.5rem;
+            margin-left: 1rem;
+        }
+
+        .nav-right {
+            float: right;
+            {#border: 1px solid red;#}
+            line-height: 50px;
+            font-size: 1rem;
+            margin-right: 1rem;
+
+        }
+
+        .nav-right span {
+            color: #fff;
+        }
+
+        .nav-right a:hover {
+            color: #ff9900;
+        }
+
+        @media only screen and (max-width: 1140px) {
+
+
+            .nav-content {
+                width: 100%;
+            }
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+<div class="nav">
+    <div class="nav-content">
+        <a href="#" class="nav-left">API导航</a>
+        <div class="nav-right">
+            <a href="">登录</a>
+            <span>|</span>
+            <a href="">注册</a>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

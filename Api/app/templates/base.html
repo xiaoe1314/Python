@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <!--兼容ie浏览器：表示强制已最新的ie浏览器渲染-->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    {% block title %}
+    <title>API导航 - 支持Android、IOS、小程序、前端调用的免费API服务</title>
+    {% endblock %}
+
+    {# 指定该属性，布局视口成为理想视口 initial-scale 初始缩放比例为1 #}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="{{ url_for('static', filename='img/favicon.ico') }}" type="image/x-icon"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    {% block head %}
+    {% endblock %}
+</head>
+<body>
+
+<!--[if lte IE 8]>
+<p class="browserupgrade">
+    你的浏览器版本太老了，请到
+    <a href="http://browserhappy.com/">
+        这里
+    </a>
+    更新，以获取最佳体检
+</p>
+<![enif] -->
+
+<header>
+    {% block nav %}
+    <div class="nav">
+        <span class="logo">API导航</span>
+        <ul>
+            <li><a href="#">登录</a></li>
+            <li><i></i></li>
+            <li><a href="#">注册</a></li>
+        </ul>
+    </div>
+    {% endblock %}
+
+    {% block search %}
+    {% endblock %}
+
+</header>
+
+{% block content %}
+{% endblock %}
+
+{% block tally %}
+    <div class="tally">
+        <a href="javascript:" title="微信公众号">
+            <div class="qr-code"></div>
+        </a>
+        <a href="#" id="back-to-top" title="回到顶部"></a>
+    </div>
+{% endblock %}
+
+
+{% block footer %}
+<footer>
+    <p>版权所有 © 2019-2020 apidh.cn created by 朝南而行</p>
+    <p>版权所有 © 2019 Mozilla Firefox. 朝南而行</p>
+</footer>
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript" src="{{ url_for('static', filename='js/vendor/jquery-2.2.4.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/wow.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+{% endblock %}
+
+</body>
+</html>
