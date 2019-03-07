@@ -24,6 +24,7 @@ def parse_detail_page(url):
     detail = {}
     response = requests.get(url,headers=HEADERS)
     text = response.content.decode('gbk')
+    # lxml + xpath
     html = etree.HTML(text)
     job = html.xpath("//div[@class='gsR_con']//h1[@id='positionName']/text()")[0]
     detail['job'] = job.strip()

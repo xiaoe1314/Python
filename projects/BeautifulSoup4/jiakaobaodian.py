@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import re
 
 # 实战爬取驾考宝典全国驾校
 
@@ -15,7 +16,7 @@ def parse_page(url):
     }
     response = requests.get(url,headers=headers)
     text = response.content.decode('utf-8')
-    soup = BeautifulSoup(text,'lxml')
+
 
     # rankings = soup.find_all('div',class_='sort-w')
     # for ranking in rankings:
@@ -32,10 +33,19 @@ def parse_page(url):
     #     CAR_DATAS.append(CAR_DATA)
     # print(CAR_DATA)
 
-    detail_urls = soup.find_all('a',class_='left img-w')
+    # BeautifulSoup4
+    # soup = BeautifulSoup(text, 'lxml')
+    # detail_urls = soup.find_all('a',class_='left img-w')
+    # for detail_url in detail_urls:
+    #     carDetailUrl = BASE_URL + detail_url['href']
+    #     parse_detail_car(carDetailUrl)
 
+    # re
+
+    detail_urls = re.findall(r'<li\sclass="clearfix\s">.*?<a\sclass="left img-w".*?href="(.*?)".*?>.*?</a>', text, re.DOTALL)
+    print(detail_urls)
     for detail_url in detail_urls:
-        carDetailUrl = BASE_URL + detail_url['href']
+        carDetailUrl = BASE_URL + detail_url
         parse_detail_car(carDetailUrl)
 
 
@@ -44,32 +54,53 @@ def parse_detail_car(url):
         'Referer': url,
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
     }
-    response = requests.get(url, headers=headers)
+    response = requests.get(url=url, headers=headers)
     text = response.content.decode('utf-8')
-    soup = BeautifulSoup(text, 'lxml')
-    imgs = soup.find('img')['src']
-    CAR_DATA['imgs'] = imgs
-    names = soup.find('a',class_='title').string
-    CAR_DATA['names'] = names
-    starting = soup.find('span',class_='score').string
-    CAR_DATA['starting'] = starting
-    allStudents = soup.find('span',class_='student').string
-    CAR_DATA['allStudents'] = allStudents
 
-    positions = soup.find('p',attrs={'class':'field'})
-    for position in positions:
-        if position.string.startswith('驾校地址'):
-            CAR_DATA['position'] = position
-
-
-    prices = soup.find('p',attrs={'class':'price'}).string
-    CAR_DATA['prices'] = prices
-    carContents = soup.find_all('div',attrs={'class':'content'})[4]
-    for carContent in carContents:
-        CAR_DATA['carContent'] = carContent
-
+    # soup = BeautifulSoup(text, 'lxml')
+    # imgs = soup.find('img')['src']
+    # CAR_DATA['imgs'] = imgs
+    # names = soup.find('a',class_='title').string
+    # CAR_DATA['names'] = names
+    # starting = soup.find('span',class_='score').string
+    # CAR_DATA['starting'] = starting
+    # allStudents = soup.find('span',class_='student').string
+    # CAR_DATA['allStudents'] = allStudents
+    print(url)
+    imgs = re.findall(r'<a\sclass="left\simg-w".*?>.*?<img.*?src="(.*?)".*?>.*?</a>', text, re.DOTALL)
+    CAR_DATA['imgs'] = imgs[0]
+    names = re.findall(r'<a\sclass="title".*?>(.*?)</a>', text, re.DOTALL)
+    CAR_DATA['names'] = names[0]
+    starting = re.findall(r'<span\sclass="score-w".*?>.*?<span\sclass="score".*?>(.*?)</span>.*?</span>', text, re.DOTALL)
+    CAR_DATA['starting'] = starting[0]
+    allStudents = re.findall(r'<span\sclass="student".*?>(.*?)</span>', text, re.DOTALL)
+    CAR_DATA['allStudents'] = allStudents[0]
+    positions = re.findall(r'<p\sclass="field".*?>(.*?)<span.*?</p>', text, re.DOTALL)
+    if positions[0].startswith('驾校地址'):
+        CAR_DATA['position'] = positions[0]
+    prices = re.findall(r'<p\sclass="price".*?>(.*?)</p>', text, re.DOTALL)
+    if len(prices) > 0:
+        CAR_DATA['prices'] = prices[0]
+    else:
+        CAR_DATA['prices'] = '暂无价格'
+    carContents = re.findall(r'<div\sclass="com-jiaxiao-introducea\scom-part".*?>.*?<div\sclass="content".*?>(.*?)</div>.*?</div>', text, re.DOTALL)
+    CAR_DATA['carContent'] = carContents[0]
     CAR_DATAS.append(CAR_DATA)
     print(CAR_DATAS)
+    # positions = soup.find('p',attrs={'class':'field'})
+    # for position in positions:
+    #     if position.string.startswith('驾校地址'):
+    #         CAR_DATA['position'] = position
+    #
+    #
+    # prices = soup.find('p',attrs={'class':'price'}).string
+    # CAR_DATA['prices'] = prices
+    # carContents = soup.find_all('div',attrs={'class':'content'})[4]
+    # for carContent in carContents:
+    #     CAR_DATA['carContent'] = carContent
+    #
+    # CAR_DATAS.append(CAR_DATA)
+    # print(CAR_DATAS)
 
 
 def main():
