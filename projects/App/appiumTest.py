@@ -17,6 +17,8 @@ class AppiumQTT(object):
             "deviceName": "127.0.0.1:62001",
             "appPackage": "com.jifen.qukan",
             "appActivity": "com.jifen.qkbase.main.MainActivity",
+            "unicodeKeyboard": "True",
+            "resetKeyboard": "True",
             "noReset": True
         }
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub', self.cap)
@@ -51,8 +53,6 @@ class AppiumQTT(object):
             time.sleep(random.randint(1, 2))
             c = c - 1
 
-
-
     def run(self):
         while True:
             print('开始点击列表=================================')
@@ -61,7 +61,8 @@ class AppiumQTT(object):
                         "//android.support.v7.widget.RecyclerView[@resource-id='com.jifen.qukan:id/pr']/android.widget.LinearLayout[1]")):
                     self.driver.find_element_by_xpath(
                         "//android.support.v7.widget.RecyclerView[@resource-id='com.jifen.qukan:id/pr']/android.widget.LinearLayout[1]").click()
-            except:
+            except Exception as e:
+                print(e)
                 pass
             self.swipe_in()
             self.swipe_up()
