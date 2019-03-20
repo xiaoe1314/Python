@@ -74,7 +74,7 @@ def find_or_rfind_demo():
     # print(d)
     # print(ord('1'))
 
-    a = '时间在线校准，北京现在时间：2019-03-07 16:44:41。查世界各大城市时差'
+    # a = '时间在线校准，北京现在时间：2019-03-07 16:44:41。查世界各大城市时差'
     # r = re.compile(r'[\d]+-[\d]+-[\d]+\s[\d]+:[\d]+:[\d]+',re.VERBOSE)
     # r = re.compile(r'[\w\-\s:]+',re.VERBOSE)
     # ret = re.search(r, a)
@@ -82,5 +82,53 @@ def find_or_rfind_demo():
     # print(re.findall(r'时间：(.*?)。.*?', a, re.DOTALL))
     # print(re.findall(r'时间：([\w\-\s:]+)。.*?', a, re.DOTALL))
 
+    a = (5, 6, 7, 1, 9)
+    b = [5, 6, 7, 1, 9]
+    c = {5, 10, 17, 1, 9}
+    #
+
+    print(help(sorted))
+    print(type(sorted(a)))
+    print(sorted(a))
+    print(sorted(c, reverse=True))
+
+
+def sortedList(lists, reverse=False):
+    count = len(lists) - 1
+    for index in range(count, 0, -1):
+        for index_sub in range(index):
+            # 倒序
+            if reverse:
+                if lists[index_sub] < lists[index_sub + 1]:
+                    lists[index_sub], lists[index_sub + 1] = lists[index_sub + 1], lists[index_sub]
+            # 排序
+            else:
+                if lists[index_sub] > lists[index_sub+1]:
+                    lists[index_sub], lists[index_sub+1] = lists[index_sub+1], lists[index_sub]
+
+    return print(lists)
+
+
+# def lambdaDemo():
+    # a = {5, 6, 7, 1, 9}
+    # l = [('a', 1), ('f', 2), ('c', 6), ('d', 4), ('e', 3)]
+    # a = sorted(l, key=lambda x: x[0])
+    # print(a)
+    # print(type((1,2)))
+    # print(l.sort(key=lambda x: x[0]))
+
+# 质数（prime number）又称素数，有无限个。
+# 质数定义为在大于1的自然数中，除了1和它本身以外不再有其他因数。
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+    return True
+
+
 if __name__ == '__main__':
-    find_or_rfind_demo()
+    for i in range(0, 1000):
+        if is_prime(i):
+            print(i, end='=====')
