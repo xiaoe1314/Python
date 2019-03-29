@@ -15,14 +15,16 @@ import csv
 
 # 通过字典读取文件
 def read_csv_demo2():
+    a = []
     with open('classroom2.csv', 'r') as fp:
         # 使用DictReader创建的reader对象
         # 不会包含的那行数据
         reader = csv.DictReader(fp)
         for x in reader:
-            value = {'username':x['username'],'age':x['age']}
-            print(value)
-
+            value = {'username': x['username'], 'age': x['age']}
+            e = (value['username'], value['age'])
+            a.append(e)
+    return a
 
 # 通过写入文件
 # def read_csv_demo3():
@@ -60,6 +62,8 @@ def read_csv_demo2():
 #         writer.writerows(values)
 #
 #
+
+
 if __name__ == '__main__':
-    read_csv_demo2()
+    print(read_csv_demo2())
 

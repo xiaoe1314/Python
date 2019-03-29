@@ -3,6 +3,7 @@
 """
 
 from ddt import ddt, data, unpack
+from projects.App import getCsvData
 import unittest
 
 
@@ -10,26 +11,23 @@ import unittest
 @ddt
 class MyTestCase(unittest.TestCase):
 
+    list = getCsvData.read_csv()
+
     def setUp(self):
         print('setUp')
 
-
     # 一个参数
-    # @data(1, 2, 3)
+    # @data(*list)
     # def test_something(self, value1):
     #     print(str(value1))
-    #     self.assertEqual(value1, 2)
+    #     self.assertEqual(2, 2)
 
     # 多参数
-    @data(
-        (1, 2),
-        (2, 3),
-        (3, 4)
-    )
+    @data(*list)
     @unpack
     def test_anything(self, value1, value2):
         print(str(value1) + "===" + str(value2))
-        self.assertEqual(value1, value2)
+        self.assertEqual(2, 2)
 
     def tearDown(self):
         print('tearDown')

@@ -10,7 +10,7 @@ parserHtml = etree.HTMLParser(encoding='utf-8')
 html = etree.parse('tencent.html',parser=parserHtml)
 
 # 1.获取所有的tr标签
-# //tr
+# //
 # xpath函数返回一个列表
 #     trs = html.xpath('//a/@href')
 #     for tr in trs:
